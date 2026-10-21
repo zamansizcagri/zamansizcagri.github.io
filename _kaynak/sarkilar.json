@@ -1,0 +1,303 @@
+{
+ "site": {
+  "alan_adi": "https://zamansizcagri.com",
+  "ad": "Zamansız Çağrı",
+  "slogan": "Kur’an ve iman hakikatleri, akılda kalan şarkılarla.",
+  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Kardeş Ol, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
+  "platformlar": [
+   {
+    "ad": "YouTube",
+    "ne": "Sözlü klipler ve Shorts",
+    "hesap": "@ZamansizCagri",
+    "url": "https://www.youtube.com/@ZamansizCagri"
+   },
+   {
+    "ad": "YouTube Music",
+    "ne": "Şarkıların ses sürümleri",
+    "hesap": "Zamansız Çağrı",
+    "url": "https://music.youtube.com/channel/UCEQNCkoVNOLh12V3wcWyzZg"
+   },
+   {
+    "ad": "Apple Music",
+    "ne": "Şarkıların ses sürümleri",
+    "hesap": "Zamansız Çağrı",
+    "url": "https://music.apple.com/tr/artist/zamans%C4%B1z-%C3%A7a%C4%9Fr%C4%B1/6824487443"
+   },
+   {
+    "ad": "Instagram",
+    "ne": "Kısa kesitler ve görseller",
+    "hesap": "@ytzamansizcagri",
+    "url": "https://www.instagram.com/ytzamansizcagri/"
+   }
+  ],
+  "abone_url": "https://www.youtube.com/@ZamansizCagri?sub_confirmation=1"
+ },
+ "sarkilar": [
+  {
+   "slug": "paylas-cogalsin",
+   "ad": "Paylaş, Çoğalsın",
+   "alt": null,
+   "kanca": "Bir lokma senden, bereket O’ndan!",
+   "renk": "#82B99A",
+   "capa": {
+    "dil": "ar",
+    "metin": "أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ",
+    "kaynak": "Mâûn 1–3",
+    "kontrol": {
+     "uzunluk": 39,
+     "toplam": 57774,
+     "fnv1a": 3541560999
+    }
+   },
+   "meal": {
+    "metin": "Gördün mü, o hesap ve ceza gününü yalanlayanı! İşte o, yetimi itip kakan, yoksula yedirmeyi özendirmeyen kimsedir.",
+    "kaynak": "Mâûn Sûresi, 107/1-3 (Diyanet meali)"
+   },
+   "aciklama": "Kapıya bırakılan isimsiz bir poşetle başlayan iyilik sokak sokak yayılıyor: zekât, askıda ekmek, borca mühlet, yetime destek, sofraya bir tabak daha… Ve Bakara 261’deki yedi başaklı tohum.",
+   "ses": "Akustik gitar eşliğinde.",
+   "youtube": "No_caF7hxSk",
+   "short": "4CMqCg1O5BM",
+   "sure": "4:34",
+   "sure_sn": 274,
+   "yayin": "2026-10-21T01:59:10-07:00",
+   "yayin_tr": "21 Ekim 2026",
+   "dinle": [
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/payla-oalsn"
+    }
+   ],
+   "notlar": []
+  },
+  {
+   "slug": "of-bile-deme",
+   "ad": "Öf Bile Deme",
+   "alt": null,
+   "kanca": "İlk adımında tutan eli yarı yolda bırakma.",
+   "renk": "#C98B8B",
+   "capa": {
+    "dil": "ar",
+    "metin": "فَلَا تَقُل لَّهُمَا أُفٍّ",
+    "kaynak": "İsrâ 23–24",
+    "kontrol": {
+     "uzunluk": 26,
+     "toplam": 36985,
+     "fnv1a": 401056710
+    }
+   },
+   "meal": {
+    "metin": "…onlara karşı “Öf” bile demeyesin, onları azarlamayasın. İkisine de hep tatlı söz söyleyesin. … “Rabbim! Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et!” de.",
+    "kaynak": "İsrâ Sûresi, 17/23-24 (Diyanet meali)"
+   },
+   "aciklama": "Yaşlanan anne-babaya en küçük “öf”ü bile yasaklayan âyet; süt tasıyla sabaha kadar ebeveyninin uyanmasını bekleyen adamın mağara kıssası ve “Annen, sonra annen, sonra annen, sonra baban” hadisi.",
+   "ses": "Keman eşliğinde.",
+   "youtube": "DCvuSRVdGBU",
+   "short": "Nq_VD6MQrhg",
+   "sure": "5:32",
+   "sure_sn": 332,
+   "yayin": "2026-10-20T05:43:20-07:00",
+   "yayin_tr": "20 Ekim 2026",
+   "dinle": [],
+   "notlar": []
+  },
+  {
+   "slug": "kardes-ol",
+   "ad": "Kardeş Ol",
+   "alt": "Selamı Sen Ver",
+   "kanca": "Selamı sen ver, kapıyı sen çal!",
+   "renk": "#E2A21B",
+   "capa": {
+    "dil": "ar",
+    "metin": "إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ",
+    "kaynak": "Hucurât 10",
+    "kontrol": {
+     "uzunluk": 32,
+     "toplam": 48161,
+     "fnv1a": 1762096824
+    }
+   },
+   "meal": {
+    "metin": "Şüphesiz müminler birbiri ile kardeştirler; öyle ise dargın olan kardeşlerinizin arasını düzeltin; Allah’tan sakının ki size acısın.",
+    "kaynak": "Hucurât Sûresi, 49/10 (Diyanet meali)"
+   },
+   "aciklama": "Öfkelenince dur, üç günü geçirmeden ilk selamı sen ver, arayı sen bul. İkinci kıtada Hucurât Sûresi’nin 6, 11 ve 12. âyetleri Diyanet mealindeki ifadeleriyle yer alıyor.",
+   "ses": "Bağlama, kemençe ve zurna-davulla.",
+   "youtube": "bV_obHkQ82c",
+   "short": "PYIYJRK7RGM",
+   "sure": "4:34",
+   "sure_sn": 274,
+   "yayin": "2026-10-20T00:33:43-07:00",
+   "yayin_tr": "20 Ekim 2026",
+   "dinle": [],
+   "notlar": []
+  },
+  {
+   "slug": "kulu-incitme-gonul-gitar",
+   "ad": "Kulu İncitme Gönül",
+   "alt": "Gitar",
+   "kanca": "Dünya bir gölge, sen peşinde koşan pervane.",
+   "renk": "#A7BC8F",
+   "capa": {
+    "dil": "tr",
+    "metin": "Gönül Çalab’ın tahtı",
+    "kaynak": "Yunus Emre"
+   },
+   "meal": null,
+   "aciklama": "Kulu İncitme Gönül’ün akustik gitar versiyonu: aynı sözler, yeni bir ses. Rüzgârla dost olmak, dala, güle, dile ve kula kıymamak; kalp kırmanın ağırlığı, dünyanın gölge, malın emanet olduğu…",
+   "ses": null,
+   "youtube": "2VJR_7s0DcI",
+   "short": "bi9Hjq3WnC0",
+   "sure": "2:47",
+   "sure_sn": 167,
+   "yayin": "2026-10-19T21:17:57-07:00",
+   "yayin_tr": "20 Ekim 2026",
+   "dinle": [
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/kulu-incitme-gnl-gitar"
+    }
+   ],
+   "notlar": [
+    "Nakarat ve kapanış, Bestami Yazgan’ın “Gülü İncitme Gönül” şiirinden uyarlanmıştır."
+   ]
+  },
+  {
+   "slug": "dosdogru-remix",
+   "ad": "Dosdoğru",
+   "alt": "Remix",
+   "kanca": "Kulaklık takılı, ekran açık… bu çağrı tam da sana.",
+   "renk": "#F2B53D",
+   "capa": {
+    "dil": "ar",
+    "metin": "فَاسْتَقِمْ كَمَا أُمِرْتَ",
+    "kaynak": "Hûd 112",
+    "kontrol": {
+     "uzunluk": 26,
+     "toplam": 38505,
+     "fnv1a": 3395653724
+    }
+   },
+   "meal": {
+    "metin": "Emrolunduğun gibi dosdoğru ol.",
+    "kaynak": "Hûd Sûresi, 112"
+   },
+   "aciklama": "“Dosdoğru”nun daha hareketli, yeniden yorumlanmış remix’i. Sonsuz akışın, filtrelerin, algoritmaların ve viral yalanların ortasında tek pusula Vahiy; doğruluk, güven, sıdk ve tevekkül üzerine.",
+   "ses": "Kanun ve ud eşliğinde, 91 BPM’de modern Anadolu hip-hop’u.",
+   "youtube": "F2P9IRaA6FA",
+   "short": "SbgkRjf7URI",
+   "sure": "4:19",
+   "sure_sn": 259,
+   "yayin": "2026-10-19T01:58:31-07:00",
+   "yayin_tr": "19 Ekim 2026",
+   "dinle": [
+    {
+     "etiket": "YouTube Music",
+     "url": "https://music.youtube.com/watch?v=EP5o6Z0Ujls"
+    }
+   ],
+   "notlar": []
+  },
+  {
+   "slug": "umidini-kesme",
+   "ad": "Ümidini Kesme",
+   "alt": "Lâ Taknatû",
+   "kanca": "Yüz katile açılan kapı sana mı kapanacak?",
+   "renk": "#86C1EE",
+   "capa": {
+    "dil": "ar",
+    "metin": "لَا تَقْنَطُوا مِنْ رَحْمَةِ اللَّهِ",
+    "kaynak": "Zümer 53",
+    "kontrol": {
+     "uzunluk": 36,
+     "toplam": 51434,
+     "fnv1a": 2855419961
+    }
+   },
+   "meal": {
+    "metin": "Ey kendi aleyhine haddi aşmış kullarım, Allah’ın rahmetinden ümidinizi kesmeyin. Şüphesiz Allah bütün günahları bağışlar. Çünkü O Gafûr’dur, Rahîm’dir.",
+    "kaynak": "Zümer Sûresi, 53"
+   },
+   "aciklama": "Günahın dağ olsa bile rahmetin deryâ olduğunu hatırlatan bir dönüş şarkısı. “Senin için çok geç artık” fısıltısına karşı tek cevap: nefes varsa vakit var.",
+   "ses": "Santur, yaylılar ve erkek korosu eşliğinde hızlı bir Türkçe rap.",
+   "youtube": "ae-nMPm_e2c",
+   "short": "ff6WdJ3GeEQ",
+   "sure": "3:39",
+   "sure_sn": 219,
+   "yayin": "2026-10-18T14:15:23-07:00",
+   "yayin_tr": "19 Ekim 2026",
+   "dinle": [
+    {
+     "etiket": "YouTube Music",
+     "url": "https://music.youtube.com/watch?v=smSWijbxWzk"
+    }
+   ],
+   "notlar": []
+  },
+  {
+   "slug": "kulu-incitme-gonul",
+   "ad": "Kulu İncitme Gönül",
+   "alt": null,
+   "kanca": "Kalp kırmak Kâbe yıkmaktır.",
+   "renk": "#66DCCB",
+   "capa": {
+    "dil": "tr",
+    "metin": "Gönül Çalab’ın tahtı",
+    "kaynak": "Yunus Emre"
+   },
+   "meal": null,
+   "aciklama": "Kibri, kini ve kalp kırmayı bırakıp merhamete çağıran tasavvufi bir rap; dünyanın bir gölge, malın mülkün emanet olduğunu hatırlatan bir nasihat.",
+   "ses": "Ney ve ud eşliğinde ağır bir ritim, melodik bir nakarat ve sessiz bir köprü.",
+   "youtube": "68welh6x8Po",
+   "short": "mRHlR8cq7pM",
+   "sure": "3:14",
+   "sure_sn": 194,
+   "yayin": "2026-10-18T11:41:12-07:00",
+   "yayin_tr": "18 Ekim 2026",
+   "dinle": [],
+   "notlar": [
+    "Nakarat ve kapanış, Bestami Yazgan’ın “Gülü İncitme Gönül” şiirinden uyarlanmıştır.",
+    "Müzik: Suno (suno.com) ile üretilmiştir; ticari olmayan bir paylaşımdır."
+   ]
+  },
+  {
+   "slug": "dosdogru",
+   "ad": "Dosdoğru",
+   "alt": "Emrolunduğun Gibi",
+   "kanca": "Klavye de bir dildir — her harf hesaba döner.",
+   "renk": "#E6C27F",
+   "capa": {
+    "dil": "ar",
+    "metin": "فَاسْتَقِمْ كَمَا أُمِرْتَ",
+    "kaynak": "Hûd 112",
+    "kontrol": {
+     "uzunluk": 26,
+     "toplam": 38505,
+     "fnv1a": 3395653724
+    }
+   },
+   "meal": {
+    "metin": "Emrolunduğun gibi dosdoğru ol.",
+    "kaynak": "Hûd Sûresi, 112"
+   },
+   "aciklama": "Peygamber Efendimiz’in (s.a.v.) “Beni Hûd sûresi ve kardeşleri ihtiyarlattı” buyurduğu âyetten yola çıkan bir istikamet şarkısı. “İnandım” demek kolay, asıl iş dosdoğru kalmak.",
+   "ses": "Kanun, ud, balaban ve darbuka eşliğinde Anadolu rap’i; araya Yunus Emre tadında bir ilahi.",
+   "youtube": "Ia403AKxXqA",
+   "short": "kNK9EuCxPSE",
+   "sure": "5:02",
+   "sure_sn": 302,
+   "yayin": "2026-10-18T11:36:12-07:00",
+   "yayin_tr": "18 Ekim 2026",
+   "dinle": [
+    {
+     "etiket": "YouTube Music",
+     "url": "https://music.youtube.com/watch?v=O8JihJQq-t8"
+    },
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/dosdoru-emrolunduun-gibi"
+    }
+   ],
+   "notlar": []
+  }
+ ]
+}

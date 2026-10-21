@@ -3,7 +3,7 @@
   "alan_adi": "https://zamansizcagri.com",
   "ad": "Zamansız Çağrı",
   "slogan": "Kur’an ve iman hakikatleri, akılda kalan şarkılarla.",
-  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Kulu İncitme Gönül, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
+  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Kardeş Ol, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
   "platformlar": [
    {
     "ad": "YouTube",
@@ -33,6 +33,42 @@
   "abone_url": "https://www.youtube.com/@ZamansizCagri?sub_confirmation=1"
  },
  "sarkilar": [
+  {
+   "slug": "kardes-ol",
+   "ad": "Kardeş Ol",
+   "alt": "Selamı Sen Ver",
+   "kanca": "Husumetin vakti bitti, barışı sen başlat!",
+   "renk": "#E2A21B",
+   "capa": {
+    "dil": "ar",
+    "metin": "إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ",
+    "kaynak": "Hucurât 10",
+    "kontrol": {
+     "uzunluk": 32,
+     "toplam": 48161,
+     "fnv1a": 1762096824
+    }
+   },
+   "meal": {
+    "metin": "Mü’minler ancak kardeştirler. Öyleyse kardeşlerinizin arasını düzeltin. Allah’a karşı gelmekten sakının ki size merhamet edilsin.",
+    "kaynak": "Hucurât Sûresi, 49/10 (Diyanet meali)"
+   },
+   "aciklama": "Üç günü geçen küslükler, bayrama bırakılan barışmalar, tribünde hakarete dönen tezahüratlar… Hucurât Sûresi’nin onuncu âyetinden ilham alan bu şarkı tek bir şey söylüyor: Selamı sen ver, kapıyı sen çal.",
+   "ses": "Ney, def ve bendir eşliğinde, sufi tınılı bir kardeşlik çağrısı.",
+   "youtube": "k99wjDbs69Q",
+   "short": "CW9dB2iva-0",
+   "sure": "3:10",
+   "sure_sn": 190,
+   "yayin": "2026-10-21T15:20:57-07:00",
+   "yayin_tr": "22 Ekim 2026",
+   "dinle": [
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/karde-ol-selam-sen-ver-2"
+    }
+   ],
+   "notlar": []
+  },
   {
    "slug": "paylas-cogalsin",
    "ad": "Paylaş, Çoğalsın",

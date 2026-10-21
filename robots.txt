@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_kaynak/
+
+Sitemap: https://zamansizcagri.com/sitemap.xml

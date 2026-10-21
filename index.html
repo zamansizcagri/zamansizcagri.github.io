@@ -3,32 +3,633 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Zamansız Çağrı</title>
-<meta name="robots" content="noindex">
-<style>
-  :root { color-scheme: dark; }
-  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #2A231C; color: #F3EDE4; font-family: "Cormorant Garamond", Georgia, serif; text-align: center; padding: 24px; box-sizing: border-box; }
-  h1 { font-weight: 600; letter-spacing: .12em; font-size: clamp(28px, 6vw, 48px); margin: 24px 0 8px; }
-  p { font-family: system-ui, sans-serif; color: #C7B9A8; margin: 8px 0; }
-  a { color: #F3EDE4; }
-</style>
+<title>Zamansız Çağrı – Kur’an ve iman hakikatleri, akılda kalan şarkılarla</title>
+<meta name="description" content="Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Kardeş Ol, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.">
+<link rel="canonical" href="https://zamansizcagri.com/">
+<meta name="theme-color" content="#2A231C">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="Zamansız Çağrı">
+<meta property="og:title" content="Zamansız Çağrı">
+<meta property="og:description" content="Kur’an ve iman hakikatleri, akılda kalan şarkılarla.">
+<meta property="og:url" content="https://zamansizcagri.com/">
+<meta property="og:image" content="https://zamansizcagri.com/assets/img/og-zamansiz-cagri.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Zamansız Çağrı amblemi ve sloganı">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/assets/fonts/cormorant-garamond-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://i.ytimg.com">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MusicGroup",
+   "@id": "https://zamansizcagri.com/#sanatci",
+   "name": "Zamansız Çağrı",
+   "url": "https://zamansizcagri.com/",
+   "description": "Kur’an ve iman hakikatleri, akılda kalan şarkılarla.",
+   "genre": [
+    "Hip Hop/Rap",
+    "World"
+   ],
+   "image": "https://zamansizcagri.com/assets/img/og-zamansiz-cagri.jpg",
+   "logo": "https://zamansizcagri.com/assets/img/icon-512.png",
+   "sameAs": [
+    "https://www.youtube.com/@ZamansizCagri",
+    "https://music.youtube.com/channel/UCEQNCkoVNOLh12V3wcWyzZg",
+    "https://music.apple.com/tr/artist/zamans%C4%B1z-%C3%A7a%C4%9Fr%C4%B1/6824487443",
+    "https://www.instagram.com/ytzamansizcagri/"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://zamansizcagri.com/#site",
+   "url": "https://zamansizcagri.com/",
+   "name": "Zamansız Çağrı",
+   "inLanguage": "tr",
+   "publisher": {
+    "@id": "https://zamansizcagri.com/#sanatci"
+   }
+  },
+  {
+   "@type": "VideoObject",
+   "name": "Paylaş, Çoğalsın – Zamansız Çağrı | Sözlü Klip",
+   "description": "Kapıya bırakılan isimsiz bir poşetle başlayan iyilik sokak sokak yayılıyor: zekât, askıda ekmek, borca mühlet, yetime destek, sofraya bir tabak daha… Ve Bakara 261’deki yedi başaklı tohum.",
+   "thumbnailUrl": [
+    "https://i.ytimg.com/vi/No_caF7hxSk/maxresdefault.jpg"
+   ],
+   "uploadDate": "2026-10-21T01:59:10-07:00",
+   "duration": "PT4M34S",
+   "embedUrl": "https://www.youtube.com/embed/No_caF7hxSk",
+   "url": "https://www.youtube.com/watch?v=No_caF7hxSk",
+   "inLanguage": "tr",
+   "creator": {
+    "@id": "https://zamansizcagri.com/#sanatci"
+   }
+  },
+  {
+   "@type": "VideoObject",
+   "name": "Öf Bile Deme – Zamansız Çağrı | Sözlü Klip",
+   "description": "Yaşlanan anne-babaya en küçük “öf”ü bile yasaklayan âyet; süt tasıyla sabaha kadar ebeveyninin uyanmasını bekleyen adamın mağara kıssası ve “Annen, sonra annen, sonra annen, sonra baban” hadisi.",
+   "thumbnailUrl": [
+    "https://i.ytimg.com/vi/DCvuSRVdGBU/maxresdefault.jpg"
+   ],
+   "uploadDate": "2026-10-20T05:43:20-07:00",
+   "duration": "PT5M32S",
+   "embedUrl": "https://www.youtube.com/embed/DCvuSRVdGBU",
+   "url": "https://www.youtube.com/watch?v=DCvuSRVdGBU",
+   "inLanguage": "tr",
+   "creator": {
+    "@id": "https://zamansizcagri.com/#sanatci"
+   }
+  },
+  {
+   "@type": "VideoObject",
+   "name": "Kardeş Ol (Selamı Sen Ver) – Zamansız Çağrı | Sözlü Klip",
+   "description": "Öfkelenince dur, üç günü geçirmeden ilk selamı sen ver, arayı sen bul. İkinci kıtada Hucurât Sûresi’nin 6, 11 ve 12. âyetleri Diyanet mealindeki ifadeleriyle yer alıyor.",
+   "thumbnailUrl": [
+    "https://i.ytimg.com/vi/bV_obHkQ82c/maxresdefault.jpg"
+   ],
+   "uploadDate": "2026-10-20T00:33:43-07:00",
+   "duration": "PT4M34S",
+   "embedUrl": "https://www.youtube.com/embed/bV_obHkQ82c",
+   "url": "https://www.youtube.com/watch?v=bV_obHkQ82c",
+   "inLanguage": "tr",
+   "creator": {
+    "@id": "https://zamansizcagri.com/#sanatci"
+   }
+  },
+  {
+   "@type": "VideoObject",
+   "name": "Kulu İncitme Gönül (Gitar) – Zamansız Çağrı | Sözlü Klip",
+   "description": "Kulu İncitme Gönül’ün akustik gitar versiyonu: aynı sözler, yeni bir ses. Rüzgârla dost olmak, dala, güle, dile ve kula kıymamak; kalp kırmanın ağırlığı, dünyanın gölge, malın emanet olduğu…",
+   "thumbnailUrl": [
+    "https://i.ytimg.com/vi/2VJR_7s0DcI/maxresdefault.jpg"
+   ],
+   "uploadDate": "2026-10-19T21:17:57-07:00",
+   "duration": "PT2M47S",
+   "embedUrl": "https://www.youtube.com/embed/2VJR_7s0DcI",
+   "url": "https://www.youtube.com/watch?v=2VJR_7s0DcI",
+   "inLanguage": "tr",
+   "creator": {
+    "@id": "https://zamansizcagri.com/#sanatci"
+   }
+  },
+  {
+   "@type": "VideoObject",
+   "name": "Dosdoğru (Remix) – Zamansız Çağrı | Sözlü Klip",
+   "description": "“Dosdoğru”nun daha hareketli, yeniden yorumlanmış remix’i. Sonsuz akışın, filtrelerin, algoritmaların ve viral yalanların ortasında tek pusula Vahiy; doğruluk, güven, sıdk ve tevekkül üzerine.",
+   "thumbnailUrl": [
+    "https://i.ytimg.com/vi/F2P9IRaA6FA/maxresdefault.jpg"
+   ],
+   "uploadDate": "2026-10-19T01:58:31-07:00",
+   "duration": "PT4M19S",
+   "embedUrl": "https://www.youtube.com/embed/F2P9IRaA6FA",
+   "url": "https://www.youtube.com/watch?v=F2P9IRaA6FA",
+   "inLanguage": "tr",
+   "creator": {
+    "@id": "https://zamansizcagri.com/#sanatci"
+   }
+  },
+  {
+   "@type": "VideoObject",
+   "name": "Ümidini Kesme (Lâ Taknatû) – Zamansız Çağrı | Sözlü Klip",
+   "description": "Günahın dağ olsa bile rahmetin deryâ olduğunu hatırlatan bir dönüş şarkısı. “Senin için çok geç artık” fısıltısına karşı tek cevap: nefes varsa vakit var.",
+   "thumbnailUrl": [
+    "https://i.ytimg.com/vi/ae-nMPm_e2c/maxresdefault.jpg"
+   ],
+   "uploadDate": "2026-10-18T14:15:23-07:00",
+   "duration": "PT3M39S",
+   "embedUrl": "https://www.youtube.com/embed/ae-nMPm_e2c",
+   "url": "https://www.youtube.com/watch?v=ae-nMPm_e2c",
+   "inLanguage": "tr",
+   "creator": {
+    "@id": "https://zamansizcagri.com/#sanatci"
+   }
+  },
+  {
+   "@type": "VideoObject",
+   "name": "Kulu İncitme Gönül – Zamansız Çağrı | Sözlü Klip",
+   "description": "Kibri, kini ve kalp kırmayı bırakıp merhamete çağıran tasavvufi bir rap; dünyanın bir gölge, malın mülkün emanet olduğunu hatırlatan bir nasihat.",
+   "thumbnailUrl": [
+    "https://i.ytimg.com/vi/68welh6x8Po/maxresdefault.jpg"
+   ],
+   "uploadDate": "2026-10-18T11:41:12-07:00",
+   "duration": "PT3M14S",
+   "embedUrl": "https://www.youtube.com/embed/68welh6x8Po",
+   "url": "https://www.youtube.com/watch?v=68welh6x8Po",
+   "inLanguage": "tr",
+   "creator": {
+    "@id": "https://zamansizcagri.com/#sanatci"
+   }
+  },
+  {
+   "@type": "VideoObject",
+   "name": "Dosdoğru (Emrolunduğun Gibi) – Zamansız Çağrı | Sözlü Klip",
+   "description": "Peygamber Efendimiz’in (s.a.v.) “Beni Hûd sûresi ve kardeşleri ihtiyarlattı” buyurduğu âyetten yola çıkan bir istikamet şarkısı. “İnandım” demek kolay, asıl iş dosdoğru kalmak.",
+   "thumbnailUrl": [
+    "https://i.ytimg.com/vi/Ia403AKxXqA/maxresdefault.jpg"
+   ],
+   "uploadDate": "2026-10-18T11:36:12-07:00",
+   "duration": "PT5M2S",
+   "embedUrl": "https://www.youtube.com/embed/Ia403AKxXqA",
+   "url": "https://www.youtube.com/watch?v=Ia403AKxXqA",
+   "inLanguage": "tr",
+   "creator": {
+    "@id": "https://zamansizcagri.com/#sanatci"
+   }
+  }
+ ]
+}
+</script>
 </head>
 <body>
-<main>
-  <svg viewBox="0 0 200 200" width="120" height="120" aria-hidden="true">
-    <circle cx="100" cy="100" r="92" fill="none" stroke="#A89683" stroke-width="3.5"/>
-    <circle cx="100" cy="118" r="8" fill="#A89683"/>
-    <path d="M 70.6 101 A 34 34 0 0 1 129.4 101" fill="none" stroke="#F3EDE4" stroke-width="7" stroke-linecap="round"/>
-    <path d="M 51.5 90 A 56 56 0 0 1 148.5 90" fill="none" stroke="#F3EDE4" stroke-width="7" stroke-linecap="round"/>
-    <path d="M 32.5 79 A 78 78 0 0 1 167.5 79" fill="none" stroke="#F3EDE4" stroke-width="6" stroke-linecap="round"/>
-    <path d="M 58 132 C 72 136, 88 141, 100 146 C 112 141, 128 136, 142 132 L 142 152 C 128 158, 112 162, 100 162 C 88 162, 72 158, 58 152 Z" fill="#3A3127"/>
-    <path d="M 58 132 C 72 136, 88 141, 100 146 C 112 141, 128 136, 142 132" fill="none" stroke="#A89683" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M 58 132 L 58 152 C 72 158, 88 162, 100 162 C 112 162, 128 158, 142 152 L 142 132" fill="none" stroke="#A89683" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M 100 146 L 100 162" stroke="#A89683" stroke-width="4" stroke-linecap="round"/>
-  </svg>
-  <h1>ZAMANSIZ ÇAĞRI</h1>
-  <p>Kur'an ve iman hakikatleri, akılda kalan şarkılarla.</p>
-  <p>Site hazırlanıyor. Klipler şimdilik <a href="https://www.youtube.com/@ZamansizCagri">YouTube kanalında</a>.</p>
+<a class="atla" href="#icerik">İçeriğe geç</a>
+
+<header class="ust">
+  <div class="kap ust__ic">
+    <a class="marka" href="/" aria-label="Zamansız Çağrı, ana sayfa">
+      <svg class="amblem" viewBox="22 30 156 140" aria-hidden="true" focusable="false">
+  <path class="dalga dalga--1" d="M 70.6 101 A 34 34 0 0 1 129.4 101" stroke-width="8"/>
+  <path class="dalga dalga--2" d="M 51.5 90 A 56 56 0 0 1 148.5 90" stroke-width="8"/>
+  <path class="dalga dalga--3" d="M 32.5 79 A 78 78 0 0 1 167.5 79" stroke-width="7"/>
+  <circle class="vizon-dolgu" cx="100" cy="118" r="9"/>
+  <path class="kitap-ic" d="M 58 132 C 72 136, 88 141, 100 146 C 112 141, 128 136, 142 132 L 142 152 C 128 158, 112 162, 100 162 C 88 162, 72 158, 58 152 Z"/>
+  <path class="vizon-cizgi" d="M 58 132 C 72 136, 88 141, 100 146 C 112 141, 128 136, 142 132" stroke-width="7"/>
+  <path class="vizon-cizgi" d="M 58 132 L 58 152 C 72 158, 88 162, 100 162 C 112 162, 128 158, 142 152 L 142 132" stroke-width="7"/>
+  <path class="vizon-cizgi" d="M 100 146 L 100 162" stroke-width="5"/>
+</svg>
+      <span class="marka__ad" aria-hidden="true">Zamansız Çağrı</span>
+    </a>
+    <nav aria-label="Sayfa bölümleri">
+      <a href="#klipler">Klipler</a>
+      <a href="#dinle">Dinle</a>
+      <a href="#hakkinda">Hakkında</a>
+    </nav>
+    <a class="dugme dugme--kucuk" href="https://www.youtube.com/@ZamansizCagri?sub_confirmation=1" target="_blank" rel="noopener">Abone ol<span class="gizli"> (YouTube, yeni sekmede açılır)</span></a>
+  </div>
+</header>
+
+<main id="icerik">
+  <section class="giris" aria-labelledby="giris-baslik">
+    <svg class="giris__halkalar" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+      <circle cx="100" cy="100" r="28" vector-effect="non-scaling-stroke"/>
+      <circle cx="100" cy="100" r="50" vector-effect="non-scaling-stroke"/>
+      <circle cx="100" cy="100" r="72" vector-effect="non-scaling-stroke"/>
+      <circle cx="100" cy="100" r="94" vector-effect="non-scaling-stroke"/>
+    </svg>
+    <div class="kap giris__ic">
+      <div class="giris__metin">
+        <h1 id="giris-baslik">Kur’an ve iman hakikatleri, akılda kalan şarkılarla.</h1>
+        <p class="giris__alt">Her şarkı bir âyete yaslanır; hadisle, Risale-i Nur’la ve Türk edebiyatının mısralarıyla örülür, bugünün bir derdine dokunur.</p>
+        <div class="giris__dugmeler">
+          <a class="dugme" href="https://www.youtube.com/@ZamansizCagri?sub_confirmation=1" target="_blank" rel="noopener">YouTube’da abone ol<span class="gizli"> (yeni sekmede açılır)</span></a>
+          <a class="dugme dugme--cizgi" href="#dinle">Platformlarda dinle</a>
+        </div>
+      </div>
+      <figure class="giris__klip" style="--renk: #82B99A">
+        <div class="oynatici" data-yt="No_caF7hxSk" data-baslik="Paylaş, Çoğalsın">
+  <a class="oynatici__kapak" href="https://www.youtube.com/watch?v=No_caF7hxSk">
+    <img src="https://i.ytimg.com/vi/No_caF7hxSk/maxresdefault.jpg"
+         srcset="https://i.ytimg.com/vi/No_caF7hxSk/mqdefault.jpg 320w, https://i.ytimg.com/vi/No_caF7hxSk/maxresdefault.jpg 1280w"
+         sizes="(max-width: 960px) 100vw, 680px"
+         width="1280" height="720" alt="" loading="eager" decoding="async" fetchpriority="high">
+    <span class="oynatici__dugme"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4.5v15l12.5-7.5z"/></svg></span>
+    <span class="gizli">Paylaş, Çoğalsın klibini oynat</span>
+  </a>
+</div>
+        <figcaption>
+          <span><span class="giris__klip-yazi">En yeni klip: </span><a class="giris__klip-ad" href="#paylas-cogalsin">Paylaş, Çoğalsın</a></span>
+          <span class="giris__klip-kaynak">Mâûn 1–3, <time datetime="2026-10-21">21 Ekim 2026</time></span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="bolum" id="klipler" aria-labelledby="klipler-baslik">
+    <div class="kap">
+      <div class="bolum__bas">
+        <h2 id="klipler-baslik">Klipler</h2>
+        <p>Her şarkının dayandığı âyet ya da söz hemen yanında. Bir şarkıyı açın: klip, mealiyle âyet ve dinleme bağlantıları orada.</p>
+      </div>
+      <ul class="fihrist">
+<li>
+  <details class="parca" id="paylas-cogalsin" name="klip" style="--renk: #82B99A">
+    <summary class="parca__ozet">
+      <h3 class="parca__ad">Paylaş, Çoğalsın</h3>
+      <span class="parca__kanca">“Bir lokma senden, bereket O’ndan!”</span>
+      <span class="parca__cizgi" aria-hidden="true"></span>
+      <span class="parca__capa" lang="ar" dir="rtl">أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ</span>
+      <span class="parca__kaynak">Mâûn 1–3</span>
+      <span class="parca__sure"><span class="gizli">Süre </span>4:34</span>
+      <span class="parca__ac" aria-hidden="true"></span>
+    </summary>
+    <div class="parca__ayrinti">
+      <div class="oynatici" data-yt="No_caF7hxSk" data-baslik="Paylaş, Çoğalsın">
+  <a class="oynatici__kapak" href="https://www.youtube.com/watch?v=No_caF7hxSk">
+    <img src="https://i.ytimg.com/vi/No_caF7hxSk/maxresdefault.jpg"
+         srcset="https://i.ytimg.com/vi/No_caF7hxSk/mqdefault.jpg 320w, https://i.ytimg.com/vi/No_caF7hxSk/maxresdefault.jpg 1280w"
+         sizes="(max-width: 960px) 100vw, 680px"
+         width="1280" height="720" alt="" loading="lazy" decoding="async">
+    <span class="oynatici__dugme"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4.5v15l12.5-7.5z"/></svg></span>
+    <span class="gizli">Paylaş, Çoğalsın klibini oynat</span>
+  </a>
+</div>
+      <div class="parca__metin">
+        <p class="parca__aciklama">Kapıya bırakılan isimsiz bir poşetle başlayan iyilik sokak sokak yayılıyor: zekât, askıda ekmek, borca mühlet, yetime destek, sofraya bir tabak daha… Ve Bakara 261’deki yedi başaklı tohum. Akustik gitar eşliğinde.</p>
+        <blockquote class="meal">
+        <p>“Gördün mü, o hesap ve ceza gününü yalanlayanı! İşte o, yetimi itip kakan, yoksula yedirmeyi özendirmeyen kimsedir.”</p>
+        <footer>Mâûn Sûresi, 107/1-3 (Diyanet meali)</footer>
+      </blockquote>
+        <ul class="baglantilar">
+          <li><a href="https://www.youtube.com/watch?v=No_caF7hxSk" target="_blank" rel="noopener">YouTube’da izle<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://www.youtube.com/shorts/4CMqCg1O5BM" target="_blank" rel="noopener">Kısa kesit<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://distrokid.com/hyperfollow/zamanszar/payla-oalsn" target="_blank" rel="noopener">Dinleme platformları<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li>
+        </ul>
+        <div class="parca__notlar"><p>Yayın: <time datetime="2026-10-21">21 Ekim 2026</time></p></div>
+      </div>
+    </div>
+  </details>
+</li>
+<li>
+  <details class="parca" id="of-bile-deme" name="klip" style="--renk: #C98B8B">
+    <summary class="parca__ozet">
+      <h3 class="parca__ad">Öf Bile Deme</h3>
+      <span class="parca__kanca">“İlk adımında tutan eli yarı yolda bırakma.”</span>
+      <span class="parca__cizgi" aria-hidden="true"></span>
+      <span class="parca__capa" lang="ar" dir="rtl">فَلَا تَقُل لَّهُمَا أُفٍّ</span>
+      <span class="parca__kaynak">İsrâ 23–24</span>
+      <span class="parca__sure"><span class="gizli">Süre </span>5:32</span>
+      <span class="parca__ac" aria-hidden="true"></span>
+    </summary>
+    <div class="parca__ayrinti">
+      <div class="oynatici" data-yt="DCvuSRVdGBU" data-baslik="Öf Bile Deme">
+  <a class="oynatici__kapak" href="https://www.youtube.com/watch?v=DCvuSRVdGBU">
+    <img src="https://i.ytimg.com/vi/DCvuSRVdGBU/maxresdefault.jpg"
+         srcset="https://i.ytimg.com/vi/DCvuSRVdGBU/mqdefault.jpg 320w, https://i.ytimg.com/vi/DCvuSRVdGBU/maxresdefault.jpg 1280w"
+         sizes="(max-width: 960px) 100vw, 680px"
+         width="1280" height="720" alt="" loading="lazy" decoding="async">
+    <span class="oynatici__dugme"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4.5v15l12.5-7.5z"/></svg></span>
+    <span class="gizli">Öf Bile Deme klibini oynat</span>
+  </a>
+</div>
+      <div class="parca__metin">
+        <p class="parca__aciklama">Yaşlanan anne-babaya en küçük “öf”ü bile yasaklayan âyet; süt tasıyla sabaha kadar ebeveyninin uyanmasını bekleyen adamın mağara kıssası ve “Annen, sonra annen, sonra annen, sonra baban” hadisi. Keman eşliğinde.</p>
+        <blockquote class="meal">
+        <p>“…onlara karşı “Öf” bile demeyesin, onları azarlamayasın. İkisine de hep tatlı söz söyleyesin. … “Rabbim! Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et!” de.”</p>
+        <footer>İsrâ Sûresi, 17/23-24 (Diyanet meali)</footer>
+      </blockquote>
+        <ul class="baglantilar">
+          <li><a href="https://www.youtube.com/watch?v=DCvuSRVdGBU" target="_blank" rel="noopener">YouTube’da izle<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://www.youtube.com/shorts/Nq_VD6MQrhg" target="_blank" rel="noopener">Kısa kesit<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li>
+        </ul>
+        <div class="parca__notlar"><p>Yayın: <time datetime="2026-10-20">20 Ekim 2026</time></p></div>
+      </div>
+    </div>
+  </details>
+</li>
+<li>
+  <details class="parca" id="kardes-ol" name="klip" style="--renk: #E2A21B">
+    <summary class="parca__ozet">
+      <h3 class="parca__ad">Kardeş Ol <span class="parca__alt">Selamı Sen Ver</span></h3>
+      <span class="parca__kanca">“Selamı sen ver, kapıyı sen çal!”</span>
+      <span class="parca__cizgi" aria-hidden="true"></span>
+      <span class="parca__capa" lang="ar" dir="rtl">إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ</span>
+      <span class="parca__kaynak">Hucurât 10</span>
+      <span class="parca__sure"><span class="gizli">Süre </span>4:34</span>
+      <span class="parca__ac" aria-hidden="true"></span>
+    </summary>
+    <div class="parca__ayrinti">
+      <div class="oynatici" data-yt="bV_obHkQ82c" data-baslik="Kardeş Ol (Selamı Sen Ver)">
+  <a class="oynatici__kapak" href="https://www.youtube.com/watch?v=bV_obHkQ82c">
+    <img src="https://i.ytimg.com/vi/bV_obHkQ82c/maxresdefault.jpg"
+         srcset="https://i.ytimg.com/vi/bV_obHkQ82c/mqdefault.jpg 320w, https://i.ytimg.com/vi/bV_obHkQ82c/maxresdefault.jpg 1280w"
+         sizes="(max-width: 960px) 100vw, 680px"
+         width="1280" height="720" alt="" loading="lazy" decoding="async">
+    <span class="oynatici__dugme"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4.5v15l12.5-7.5z"/></svg></span>
+    <span class="gizli">Kardeş Ol (Selamı Sen Ver) klibini oynat</span>
+  </a>
+</div>
+      <div class="parca__metin">
+        <p class="parca__aciklama">Öfkelenince dur, üç günü geçirmeden ilk selamı sen ver, arayı sen bul. İkinci kıtada Hucurât Sûresi’nin 6, 11 ve 12. âyetleri Diyanet mealindeki ifadeleriyle yer alıyor. Bağlama, kemençe ve zurna-davulla.</p>
+        <blockquote class="meal">
+        <p>“Şüphesiz müminler birbiri ile kardeştirler; öyle ise dargın olan kardeşlerinizin arasını düzeltin; Allah’tan sakının ki size acısın.”</p>
+        <footer>Hucurât Sûresi, 49/10 (Diyanet meali)</footer>
+      </blockquote>
+        <ul class="baglantilar">
+          <li><a href="https://www.youtube.com/watch?v=bV_obHkQ82c" target="_blank" rel="noopener">YouTube’da izle<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://www.youtube.com/shorts/PYIYJRK7RGM" target="_blank" rel="noopener">Kısa kesit<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li>
+        </ul>
+        <div class="parca__notlar"><p>Yayın: <time datetime="2026-10-20">20 Ekim 2026</time></p></div>
+      </div>
+    </div>
+  </details>
+</li>
+<li>
+  <details class="parca" id="kulu-incitme-gonul-gitar" name="klip" style="--renk: #A7BC8F">
+    <summary class="parca__ozet">
+      <h3 class="parca__ad">Kulu İncitme Gönül <span class="parca__alt">Gitar</span></h3>
+      <span class="parca__kanca">“Dünya bir gölge, sen peşinde koşan pervane.”</span>
+      <span class="parca__cizgi" aria-hidden="true"></span>
+      <span class="parca__capa" lang="tr">“Gönül Çalab’ın tahtı”</span>
+      <span class="parca__kaynak">Yunus Emre</span>
+      <span class="parca__sure"><span class="gizli">Süre </span>2:47</span>
+      <span class="parca__ac" aria-hidden="true"></span>
+    </summary>
+    <div class="parca__ayrinti">
+      <div class="oynatici" data-yt="2VJR_7s0DcI" data-baslik="Kulu İncitme Gönül (Gitar)">
+  <a class="oynatici__kapak" href="https://www.youtube.com/watch?v=2VJR_7s0DcI">
+    <img src="https://i.ytimg.com/vi/2VJR_7s0DcI/maxresdefault.jpg"
+         srcset="https://i.ytimg.com/vi/2VJR_7s0DcI/mqdefault.jpg 320w, https://i.ytimg.com/vi/2VJR_7s0DcI/maxresdefault.jpg 1280w"
+         sizes="(max-width: 960px) 100vw, 680px"
+         width="1280" height="720" alt="" loading="lazy" decoding="async">
+    <span class="oynatici__dugme"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4.5v15l12.5-7.5z"/></svg></span>
+    <span class="gizli">Kulu İncitme Gönül (Gitar) klibini oynat</span>
+  </a>
+</div>
+      <div class="parca__metin">
+        <p class="parca__aciklama">Kulu İncitme Gönül’ün akustik gitar versiyonu: aynı sözler, yeni bir ses. Rüzgârla dost olmak, dala, güle, dile ve kula kıymamak; kalp kırmanın ağırlığı, dünyanın gölge, malın emanet olduğu…</p>
+        
+        <ul class="baglantilar">
+          <li><a href="https://www.youtube.com/watch?v=2VJR_7s0DcI" target="_blank" rel="noopener">YouTube’da izle<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://www.youtube.com/shorts/bi9Hjq3WnC0" target="_blank" rel="noopener">Kısa kesit<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://distrokid.com/hyperfollow/zamanszar/kulu-incitme-gnl-gitar" target="_blank" rel="noopener">Dinleme platformları<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li>
+        </ul>
+        <div class="parca__notlar"><p>Nakarat ve kapanış, Bestami Yazgan’ın “Gülü İncitme Gönül” şiirinden uyarlanmıştır.</p><p>Yayın: <time datetime="2026-10-19">20 Ekim 2026</time></p></div>
+      </div>
+    </div>
+  </details>
+</li>
+<li>
+  <details class="parca" id="dosdogru-remix" name="klip" style="--renk: #F2B53D">
+    <summary class="parca__ozet">
+      <h3 class="parca__ad">Dosdoğru <span class="parca__alt">Remix</span></h3>
+      <span class="parca__kanca">“Kulaklık takılı, ekran açık… bu çağrı tam da sana.”</span>
+      <span class="parca__cizgi" aria-hidden="true"></span>
+      <span class="parca__capa" lang="ar" dir="rtl">فَاسْتَقِمْ كَمَا أُمِرْتَ</span>
+      <span class="parca__kaynak">Hûd 112</span>
+      <span class="parca__sure"><span class="gizli">Süre </span>4:19</span>
+      <span class="parca__ac" aria-hidden="true"></span>
+    </summary>
+    <div class="parca__ayrinti">
+      <div class="oynatici" data-yt="F2P9IRaA6FA" data-baslik="Dosdoğru (Remix)">
+  <a class="oynatici__kapak" href="https://www.youtube.com/watch?v=F2P9IRaA6FA">
+    <img src="https://i.ytimg.com/vi/F2P9IRaA6FA/maxresdefault.jpg"
+         srcset="https://i.ytimg.com/vi/F2P9IRaA6FA/mqdefault.jpg 320w, https://i.ytimg.com/vi/F2P9IRaA6FA/maxresdefault.jpg 1280w"
+         sizes="(max-width: 960px) 100vw, 680px"
+         width="1280" height="720" alt="" loading="lazy" decoding="async">
+    <span class="oynatici__dugme"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4.5v15l12.5-7.5z"/></svg></span>
+    <span class="gizli">Dosdoğru (Remix) klibini oynat</span>
+  </a>
+</div>
+      <div class="parca__metin">
+        <p class="parca__aciklama">“Dosdoğru”nun daha hareketli, yeniden yorumlanmış remix’i. Sonsuz akışın, filtrelerin, algoritmaların ve viral yalanların ortasında tek pusula Vahiy; doğruluk, güven, sıdk ve tevekkül üzerine. Kanun ve ud eşliğinde, 91 BPM’de modern Anadolu hip-hop’u.</p>
+        <blockquote class="meal">
+        <p>“Emrolunduğun gibi dosdoğru ol.”</p>
+        <footer>Hûd Sûresi, 112</footer>
+      </blockquote>
+        <ul class="baglantilar">
+          <li><a href="https://www.youtube.com/watch?v=F2P9IRaA6FA" target="_blank" rel="noopener">YouTube’da izle<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://www.youtube.com/shorts/SbgkRjf7URI" target="_blank" rel="noopener">Kısa kesit<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://music.youtube.com/watch?v=EP5o6Z0Ujls" target="_blank" rel="noopener">YouTube Music<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li>
+        </ul>
+        <div class="parca__notlar"><p>Yayın: <time datetime="2026-10-19">19 Ekim 2026</time></p></div>
+      </div>
+    </div>
+  </details>
+</li>
+<li>
+  <details class="parca" id="umidini-kesme" name="klip" style="--renk: #86C1EE">
+    <summary class="parca__ozet">
+      <h3 class="parca__ad">Ümidini Kesme <span class="parca__alt">Lâ Taknatû</span></h3>
+      <span class="parca__kanca">“Yüz katile açılan kapı sana mı kapanacak?”</span>
+      <span class="parca__cizgi" aria-hidden="true"></span>
+      <span class="parca__capa" lang="ar" dir="rtl">لَا تَقْنَطُوا مِنْ رَحْمَةِ اللَّهِ</span>
+      <span class="parca__kaynak">Zümer 53</span>
+      <span class="parca__sure"><span class="gizli">Süre </span>3:39</span>
+      <span class="parca__ac" aria-hidden="true"></span>
+    </summary>
+    <div class="parca__ayrinti">
+      <div class="oynatici" data-yt="ae-nMPm_e2c" data-baslik="Ümidini Kesme (Lâ Taknatû)">
+  <a class="oynatici__kapak" href="https://www.youtube.com/watch?v=ae-nMPm_e2c">
+    <img src="https://i.ytimg.com/vi/ae-nMPm_e2c/maxresdefault.jpg"
+         srcset="https://i.ytimg.com/vi/ae-nMPm_e2c/mqdefault.jpg 320w, https://i.ytimg.com/vi/ae-nMPm_e2c/maxresdefault.jpg 1280w"
+         sizes="(max-width: 960px) 100vw, 680px"
+         width="1280" height="720" alt="" loading="lazy" decoding="async">
+    <span class="oynatici__dugme"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4.5v15l12.5-7.5z"/></svg></span>
+    <span class="gizli">Ümidini Kesme (Lâ Taknatû) klibini oynat</span>
+  </a>
+</div>
+      <div class="parca__metin">
+        <p class="parca__aciklama">Günahın dağ olsa bile rahmetin deryâ olduğunu hatırlatan bir dönüş şarkısı. “Senin için çok geç artık” fısıltısına karşı tek cevap: nefes varsa vakit var. Santur, yaylılar ve erkek korosu eşliğinde hızlı bir Türkçe rap.</p>
+        <blockquote class="meal">
+        <p>“Ey kendi aleyhine haddi aşmış kullarım, Allah’ın rahmetinden ümidinizi kesmeyin. Şüphesiz Allah bütün günahları bağışlar. Çünkü O Gafûr’dur, Rahîm’dir.”</p>
+        <footer>Zümer Sûresi, 53</footer>
+      </blockquote>
+        <ul class="baglantilar">
+          <li><a href="https://www.youtube.com/watch?v=ae-nMPm_e2c" target="_blank" rel="noopener">YouTube’da izle<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://www.youtube.com/shorts/ff6WdJ3GeEQ" target="_blank" rel="noopener">Kısa kesit<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://music.youtube.com/watch?v=smSWijbxWzk" target="_blank" rel="noopener">YouTube Music<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li>
+        </ul>
+        <div class="parca__notlar"><p>Yayın: <time datetime="2026-10-18">19 Ekim 2026</time></p></div>
+      </div>
+    </div>
+  </details>
+</li>
+<li>
+  <details class="parca" id="kulu-incitme-gonul" name="klip" style="--renk: #66DCCB">
+    <summary class="parca__ozet">
+      <h3 class="parca__ad">Kulu İncitme Gönül</h3>
+      <span class="parca__kanca">“Kalp kırmak Kâbe yıkmaktır.”</span>
+      <span class="parca__cizgi" aria-hidden="true"></span>
+      <span class="parca__capa" lang="tr">“Gönül Çalab’ın tahtı”</span>
+      <span class="parca__kaynak">Yunus Emre</span>
+      <span class="parca__sure"><span class="gizli">Süre </span>3:14</span>
+      <span class="parca__ac" aria-hidden="true"></span>
+    </summary>
+    <div class="parca__ayrinti">
+      <div class="oynatici" data-yt="68welh6x8Po" data-baslik="Kulu İncitme Gönül">
+  <a class="oynatici__kapak" href="https://www.youtube.com/watch?v=68welh6x8Po">
+    <img src="https://i.ytimg.com/vi/68welh6x8Po/maxresdefault.jpg"
+         srcset="https://i.ytimg.com/vi/68welh6x8Po/mqdefault.jpg 320w, https://i.ytimg.com/vi/68welh6x8Po/maxresdefault.jpg 1280w"
+         sizes="(max-width: 960px) 100vw, 680px"
+         width="1280" height="720" alt="" loading="lazy" decoding="async">
+    <span class="oynatici__dugme"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4.5v15l12.5-7.5z"/></svg></span>
+    <span class="gizli">Kulu İncitme Gönül klibini oynat</span>
+  </a>
+</div>
+      <div class="parca__metin">
+        <p class="parca__aciklama">Kibri, kini ve kalp kırmayı bırakıp merhamete çağıran tasavvufi bir rap; dünyanın bir gölge, malın mülkün emanet olduğunu hatırlatan bir nasihat. Ney ve ud eşliğinde ağır bir ritim, melodik bir nakarat ve sessiz bir köprü.</p>
+        
+        <ul class="baglantilar">
+          <li><a href="https://www.youtube.com/watch?v=68welh6x8Po" target="_blank" rel="noopener">YouTube’da izle<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://www.youtube.com/shorts/mRHlR8cq7pM" target="_blank" rel="noopener">Kısa kesit<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li>
+        </ul>
+        <div class="parca__notlar"><p>Nakarat ve kapanış, Bestami Yazgan’ın “Gülü İncitme Gönül” şiirinden uyarlanmıştır.</p><p>Müzik: Suno (suno.com) ile üretilmiştir; ticari olmayan bir paylaşımdır.</p><p>Yayın: <time datetime="2026-10-18">18 Ekim 2026</time></p></div>
+      </div>
+    </div>
+  </details>
+</li>
+<li>
+  <details class="parca" id="dosdogru" name="klip" style="--renk: #E6C27F">
+    <summary class="parca__ozet">
+      <h3 class="parca__ad">Dosdoğru <span class="parca__alt">Emrolunduğun Gibi</span></h3>
+      <span class="parca__kanca">“Klavye de bir dildir — her harf hesaba döner.”</span>
+      <span class="parca__cizgi" aria-hidden="true"></span>
+      <span class="parca__capa" lang="ar" dir="rtl">فَاسْتَقِمْ كَمَا أُمِرْتَ</span>
+      <span class="parca__kaynak">Hûd 112</span>
+      <span class="parca__sure"><span class="gizli">Süre </span>5:02</span>
+      <span class="parca__ac" aria-hidden="true"></span>
+    </summary>
+    <div class="parca__ayrinti">
+      <div class="oynatici" data-yt="Ia403AKxXqA" data-baslik="Dosdoğru (Emrolunduğun Gibi)">
+  <a class="oynatici__kapak" href="https://www.youtube.com/watch?v=Ia403AKxXqA">
+    <img src="https://i.ytimg.com/vi/Ia403AKxXqA/maxresdefault.jpg"
+         srcset="https://i.ytimg.com/vi/Ia403AKxXqA/mqdefault.jpg 320w, https://i.ytimg.com/vi/Ia403AKxXqA/maxresdefault.jpg 1280w"
+         sizes="(max-width: 960px) 100vw, 680px"
+         width="1280" height="720" alt="" loading="lazy" decoding="async">
+    <span class="oynatici__dugme"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4.5v15l12.5-7.5z"/></svg></span>
+    <span class="gizli">Dosdoğru (Emrolunduğun Gibi) klibini oynat</span>
+  </a>
+</div>
+      <div class="parca__metin">
+        <p class="parca__aciklama">Peygamber Efendimiz’in (s.a.v.) “Beni Hûd sûresi ve kardeşleri ihtiyarlattı” buyurduğu âyetten yola çıkan bir istikamet şarkısı. “İnandım” demek kolay, asıl iş dosdoğru kalmak. Kanun, ud, balaban ve darbuka eşliğinde Anadolu rap’i; araya Yunus Emre tadında bir ilahi.</p>
+        <blockquote class="meal">
+        <p>“Emrolunduğun gibi dosdoğru ol.”</p>
+        <footer>Hûd Sûresi, 112</footer>
+      </blockquote>
+        <ul class="baglantilar">
+          <li><a href="https://www.youtube.com/watch?v=Ia403AKxXqA" target="_blank" rel="noopener">YouTube’da izle<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://www.youtube.com/shorts/kNK9EuCxPSE" target="_blank" rel="noopener">Kısa kesit<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://music.youtube.com/watch?v=O8JihJQq-t8" target="_blank" rel="noopener">YouTube Music<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li><li><a href="https://distrokid.com/hyperfollow/zamanszar/dosdoru-emrolunduun-gibi" target="_blank" rel="noopener">Dinleme platformları<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="gizli"> (yeni sekmede açılır)</span></a></li>
+        </ul>
+        <div class="parca__notlar"><p>Yayın: <time datetime="2026-10-18">18 Ekim 2026</time></p></div>
+      </div>
+    </div>
+  </details>
+</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="bolum" id="dinle" aria-labelledby="dinle-baslik">
+    <div class="kap">
+      <div class="bolum__bas">
+        <h2 id="dinle-baslik">Dinle ve takip et</h2>
+        <p>Sözlü klipler YouTube’da; şarkıların ses sürümleri dinleme platformlarında.</p>
+      </div>
+      <ul class="platformlar">
+      <li><a href="https://www.youtube.com/@ZamansizCagri" target="_blank" rel="noopener">
+        <span class="platform__ad">YouTube</span>
+        <span class="platform__ne">Sözlü klipler ve Shorts</span>
+        <span class="platform__hesap">@ZamansizCagri</span>
+        <svg class="platform__ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        <span class="gizli"> (yeni sekmede açılır)</span>
+      </a></li>
+      <li><a href="https://music.youtube.com/channel/UCEQNCkoVNOLh12V3wcWyzZg" target="_blank" rel="noopener">
+        <span class="platform__ad">YouTube Music</span>
+        <span class="platform__ne">Şarkıların ses sürümleri</span>
+        <span class="platform__hesap">Zamansız Çağrı</span>
+        <svg class="platform__ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        <span class="gizli"> (yeni sekmede açılır)</span>
+      </a></li>
+      <li><a href="https://music.apple.com/tr/artist/zamans%C4%B1z-%C3%A7a%C4%9Fr%C4%B1/6824487443" target="_blank" rel="noopener">
+        <span class="platform__ad">Apple Music</span>
+        <span class="platform__ne">Şarkıların ses sürümleri</span>
+        <span class="platform__hesap">Zamansız Çağrı</span>
+        <svg class="platform__ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        <span class="gizli"> (yeni sekmede açılır)</span>
+      </a></li>
+      <li><a href="https://www.instagram.com/ytzamansizcagri/" target="_blank" rel="noopener">
+        <span class="platform__ad">Instagram</span>
+        <span class="platform__ne">Kısa kesitler ve görseller</span>
+        <span class="platform__hesap">@ytzamansizcagri</span>
+        <svg class="platform__ok" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        <span class="gizli"> (yeni sekmede açılır)</span>
+      </a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="bolum" id="hakkinda" aria-labelledby="hakkinda-baslik">
+    <div class="kap hakkinda">
+      <div class="hakkinda__metin">
+        <h2 id="hakkinda-baslik">Hakkında</h2>
+        <p class="hakkinda__giris">Zamansız Çağrı, Kur’an’ın ve imanın hakikatlerini akılda kalan şarkılara dönüştüren bir müzik kanalı. Adını Dosdoğru’nun kapanışındaki “Çağrı zamansız” dizesinden alır.</p>
+        <p>Şarkılar bireyin iç dünyasından toplumun derdine uzanır: istikamet, ümit ve tevbe, kalp kırmamak, kardeşlik, anne-baba hakkı, paylaşmak. Her klibin kendi sesi ve kendi görsel dünyası vardır; yukarıdaki renkler de kliplerin renkleridir.</p>
+        <p class="hakkinda__beyan">Şarkılar yapay zekâ destekli müzik araçlarıyla üretilir. Her klibin sözleri ve dayandığı âyet, YouTube açıklamasında yer alır.</p>
+      </div>
+      <div class="hakkinda__yol">
+        <h3>Bir şarkı nasıl doğar</h3>
+        <ol class="adimlar">
+          <li><strong>Âyet</strong>Şarkı tek bir âyete yaslanır; nakaratın kancası çoğu zaman o âyetin kendisidir.</li>
+          <li><strong>Kaynaklar</strong>Konuyla ilgili hadisler, Risale-i Nur’dan vecizeler ve Türk edebiyatından mısralar toplanır, kaynağından doğrulanır.</li>
+          <li><strong>Söz</strong>Kaynaklar bugünün bir derdiyle buluşturulur ve sözler yazılır.</li>
+          <li><strong>Şarkı ve klip</strong>Her şarkıya kendi sesi, kendi renkleri ve bir sözlü klip verilir; ardından kısa kesitler gelir.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
 </main>
+
+<footer class="alt">
+  <div class="kap alt__ic">
+    <div>
+      <a class="marka" href="/" aria-label="Zamansız Çağrı, ana sayfa">
+        <svg class="amblem" viewBox="22 30 156 140" aria-hidden="true" focusable="false">
+  <path class="dalga dalga--1" d="M 70.6 101 A 34 34 0 0 1 129.4 101" stroke-width="8"/>
+  <path class="dalga dalga--2" d="M 51.5 90 A 56 56 0 0 1 148.5 90" stroke-width="8"/>
+  <path class="dalga dalga--3" d="M 32.5 79 A 78 78 0 0 1 167.5 79" stroke-width="7"/>
+  <circle class="vizon-dolgu" cx="100" cy="118" r="9"/>
+  <path class="kitap-ic" d="M 58 132 C 72 136, 88 141, 100 146 C 112 141, 128 136, 142 132 L 142 152 C 128 158, 112 162, 100 162 C 88 162, 72 158, 58 152 Z"/>
+  <path class="vizon-cizgi" d="M 58 132 C 72 136, 88 141, 100 146 C 112 141, 128 136, 142 132" stroke-width="7"/>
+  <path class="vizon-cizgi" d="M 58 132 L 58 152 C 72 158, 88 162, 100 162 C 112 162, 128 158, 142 152 L 142 132" stroke-width="7"/>
+  <path class="vizon-cizgi" d="M 100 146 L 100 162" stroke-width="5"/>
+</svg>
+        <span class="marka__ad" aria-hidden="true">Zamansız Çağrı</span>
+      </a>
+      <p class="alt__slogan">Kur’an ve iman hakikatleri, akılda kalan şarkılarla.</p>
+    </div>
+    <ul class="alt__baglantilar"><li><a href="https://www.youtube.com/@ZamansizCagri" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://music.youtube.com/channel/UCEQNCkoVNOLh12V3wcWyzZg" target="_blank" rel="noopener">YouTube Music</a></li><li><a href="https://music.apple.com/tr/artist/zamans%C4%B1z-%C3%A7a%C4%9Fr%C4%B1/6824487443" target="_blank" rel="noopener">Apple Music</a></li><li><a href="https://www.instagram.com/ytzamansizcagri/" target="_blank" rel="noopener">Instagram</a></li></ul>
+    <p class="alt__telif">© 2026 Zamansız Çağrı</p>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js" defer></script>
 </body>
 </html>

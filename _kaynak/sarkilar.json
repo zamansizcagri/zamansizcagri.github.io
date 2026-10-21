@@ -3,7 +3,7 @@
   "alan_adi": "https://zamansizcagri.com",
   "ad": "Zamansız Çağrı",
   "slogan": "Kur’an ve iman hakikatleri, akılda kalan şarkılarla.",
-  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Kardeş Ol, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
+  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Kulu İncitme Gönül, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
   "platformlar": [
    {
     "ad": "YouTube",
@@ -96,37 +96,6 @@
    "sure": "5:32",
    "sure_sn": 332,
    "yayin": "2026-10-20T05:43:20-07:00",
-   "yayin_tr": "20 Ekim 2026",
-   "dinle": [],
-   "notlar": []
-  },
-  {
-   "slug": "kardes-ol",
-   "ad": "Kardeş Ol",
-   "alt": "Selamı Sen Ver",
-   "kanca": "Selamı sen ver, kapıyı sen çal!",
-   "renk": "#E2A21B",
-   "capa": {
-    "dil": "ar",
-    "metin": "إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ",
-    "kaynak": "Hucurât 10",
-    "kontrol": {
-     "uzunluk": 32,
-     "toplam": 48161,
-     "fnv1a": 1762096824
-    }
-   },
-   "meal": {
-    "metin": "Şüphesiz müminler birbiri ile kardeştirler; öyle ise dargın olan kardeşlerinizin arasını düzeltin; Allah’tan sakının ki size acısın.",
-    "kaynak": "Hucurât Sûresi, 49/10 (Diyanet meali)"
-   },
-   "aciklama": "Öfkelenince dur, üç günü geçirmeden ilk selamı sen ver, arayı sen bul. İkinci kıtada Hucurât Sûresi’nin 6, 11 ve 12. âyetleri Diyanet mealindeki ifadeleriyle yer alıyor.",
-   "ses": "Bağlama, kemençe ve zurna-davulla.",
-   "youtube": "bV_obHkQ82c",
-   "short": "PYIYJRK7RGM",
-   "sure": "4:34",
-   "sure_sn": 274,
-   "yayin": "2026-10-20T00:33:43-07:00",
    "yayin_tr": "20 Ekim 2026",
    "dinle": [],
    "notlar": []

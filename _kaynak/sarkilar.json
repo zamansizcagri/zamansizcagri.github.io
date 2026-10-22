@@ -3,7 +3,7 @@
   "alan_adi": "https://zamansizcagri.com",
   "ad": "Zamansız Çağrı",
   "slogan": "Kur’an ve iman hakikatleri, akılda kalan şarkılarla.",
-  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Kardeş Ol, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
+  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
   "platformlar": [
    {
     "ad": "YouTube",
@@ -39,6 +39,42 @@
   "abone_url": "https://www.youtube.com/@ZamansizCagri?sub_confirmation=1"
  },
  "sarkilar": [
+  {
+   "slug": "ummadigin-yerden",
+   "ad": "Ummadığın Yerden",
+   "alt": null,
+   "kanca": "Ummadığın yerden gelir, ummadığın anda…",
+   "renk": "#FFC857",
+   "capa": {
+    "dil": "ar",
+    "metin": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ",
+    "kaynak": "Talâk 3",
+    "kontrol": {
+     "uzunluk": 39,
+     "toplam": 56284,
+     "fnv1a": 1812952033
+    }
+   },
+   "meal": {
+    "metin": "Kim Allah’a karşı gelmekten sakınırsa Allah ona bir çıkış yolu açar. Onu beklemediği yerden rızıklandırır. Kim Allah’a tevekkül ederse, O kendisine yeter.",
+    "kaynak": "Talâk Sûresi, 65/2-3 (Diyanet meali)"
+   },
+   "aciklama": "“Bir gecede zengin” vaatlerinin her köşeyi sardığı bir zamanda bu şarkı kolay kazancın değil helal emeğin, şansın değil tevekkülün şarkısı: yol yok sandığın yerde bir yol açılır, rızık ummadığın yerden gelir, Rabbin yeter. Köprüde Niyâzî-i Mısrî’nin “Derman arardım derdime, derdim bana derman imiş” dizesi, nakarat öncesinde Mehmet Âkif’in “Allah’a dayan, sa’ye sarıl” çağrısının izi var.",
+   "ses": "Japonya’nın taiko davulları, shakuhachi bambu flütü ve koto renkleriyle sinematik hip-hop; ölçülü Türkçe rap kıtalar, marş gibi erkek koro nakarat, soru-cevap köprü.",
+   "youtube": "-mSd0Znz8UI",
+   "short": "EPwc24yyGPw",
+   "sure": "3:50",
+   "sure_sn": 230,
+   "yayin": "2026-10-22T02:55:17-07:00",
+   "yayin_tr": "22 Ekim 2026",
+   "dinle": [
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/ummadn-yerden"
+    }
+   ],
+   "notlar": []
+  },
   {
    "slug": "bir-damlada-rahmet",
    "ad": "Bir Damlada Rahmet",

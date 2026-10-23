@@ -3,7 +3,7 @@
   "alan_adi": "https://zamansizcagri.com",
   "ad": "Zamansız Çağrı",
   "slogan": "Kur’an ve iman hakikatleri, akılda kalan şarkılarla.",
-  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Gözümün Nuru, Huzur Bulasın Diye, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
+  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
   "platformlar": [
    {
     "ad": "YouTube",
@@ -39,6 +39,42 @@
   "abone_url": "https://www.youtube.com/@ZamansizCagri?sub_confirmation=1"
  },
  "sarkilar": [
+  {
+   "slug": "guzel-ornek",
+   "ad": "Güzel Örnek",
+   "alt": "İzinden",
+   "kanca": "Güzel örnek O, izinden git! Kumda izler var; önde giden bir rahmet.",
+   "renk": "#4FB38F",
+   "capa": {
+    "dil": "ar",
+    "metin": "فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+    "kaynak": "Ahzâb 21",
+    "kontrol": {
+     "uzunluk": 37,
+     "toplam": 53028,
+     "fnv1a": 1405590881
+    }
+   },
+   "meal": {
+    "metin": "Andolsun, Allah’ın Resülünde sizin için; Allah’a ve ahiret gününe kavuşmayı uman, Allah’ı çok zikreden kimseler için güzel bir örnek vardır.",
+    "kaynak": "Ahzâb Sûresi, 33/21 (Diyanet meali)"
+   },
+   "aciklama": "Herkes bir kahraman arar; afişler her mevsim değişir. Bu şarkı on dört asırdır silinmeyen bir ize çağırıyor: gençlere güvenen, çocuklara bile selam veren, çarşıda sesini yükseltmeyen, kötülüğe kötülükle karşılık vermeyip affeden, “Kolaylaştırın, zorlaştırmayın; müjdeleyin” diyen en güzel örneğe. Bugün bir selam, bir tebessüm, bir salavat: izine bastığın an.",
+   "ses": "Pakistan’ın kavvali ve na’t geleneğinden esintili bir düzenleme: harmonyum, tabla ve el çırpmalarıyla Türkçe nakarat ve ölçülü rap kıtalar. Parça Kur’an bölümüyle açılıyor: âyet ve meali yalnız insan sesiyle, alttan gelen yumuşak bir “hmmm” mırıltısı eşliğinde okunuyor; müzik mealden sonra başlıyor. Klipte âyet özgün bir hilye levhasının başmakamında beliriyor; sonra levhanın hilâli aya dönüşüyor ve gece çölünde kumdaki altın izlerin peşine düşüyoruz: ufukta yeşil kubbe, yol boyunca fenerler, köprüde dolunay, son nakaratta şafak.",
+   "youtube": "0Mi6RWi5WUM",
+   "short": "IFfE2hb8eMU",
+   "sure": "3:55",
+   "sure_sn": 235,
+   "yayin": "2026-10-23T07:03:36-07:00",
+   "yayin_tr": "23 Ekim 2026",
+   "dinle": [
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/gzel-rnek-izinden"
+    }
+   ],
+   "notlar": []
+  },
   {
    "slug": "huzur-bulasin-diye",
    "ad": "Huzur Bulasın Diye",

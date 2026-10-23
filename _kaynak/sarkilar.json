@@ -3,7 +3,7 @@
   "alan_adi": "https://zamansizcagri.com",
   "ad": "Zamansız Çağrı",
   "slogan": "Kur’an ve iman hakikatleri, akılda kalan şarkılarla.",
-  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
+  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Sesini Duyan Var, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
   "platformlar": [
    {
     "ad": "YouTube",
@@ -39,6 +39,42 @@
   "abone_url": "https://www.youtube.com/@ZamansizCagri?sub_confirmation=1"
  },
  "sarkilar": [
+  {
+   "slug": "sesini-duyan-var",
+   "ad": "Sesini Duyan Var",
+   "alt": "İnnî Karîb",
+   "kanca": "Sesini duyan var; çağır, O yakın! Yalnız değilsin bu handa.",
+   "renk": "#FF8FB4",
+   "capa": {
+    "dil": "ar",
+    "metin": "فَإِنِّي قَرِيبٌ",
+    "kaynak": "Bakara 186",
+    "kontrol": {
+     "uzunluk": 16,
+     "toplam": 24100,
+     "fnv1a": 4132103755
+    }
+   },
+   "meal": {
+    "metin": "Kullarım, beni senden sorarlarsa, (bilsinler ki), gerçekten ben (onlara çok) yakınım. Bana dua edince, dua edenin duasına cevap veririm. O halde, doğru yolu bulmaları için benim davetime uysunlar, bana iman etsinler.",
+    "kaynak": "Bakara Sûresi, 2/186 (Diyanet meali)"
+   },
+   "aciklama": "Aynı sırada, aynı yolda yan yana ama herkes uzak; “Beni kim duyar?” dersin, cümlen yarım kalır. Bu şarkı cevabı hatırlatıyor: avucunu aç, bir cümleyle başla; sağır ve uzak birine değil, işiten ve yakın olana sesleniyorsun. Açılan el boş çevrilmez; acele yok, cevabın vakti var. Kardeşine gıyabında dua et; elinden geleni yap, sebebe sarıl, bir dosta, bilene danış.",
+   "ses": "İrlanda ve İskoçya’nın Kelt arpı, tin whistle, keman ve bodhrán’ıyla sinematik bir düzenleme; köprüde Yunus Emre’ye atfedilen “Dağlar ile taşlar ile” dizeleri. Şarkıda tilavet yok; âyet klibin açılışında. Klipte gün batımından şafağa renklenen bir kıyıda deniz feneri dönüyor. Âyet fenerin huzmesinde beliriyor, sonra her dize kendi sahnesini kuruyor: kayıktan fenere giden ses yayları, açık avuçlar ve aralanan kalp, balığın içindeki ışık; kutup ışıkları, yunuslar, suda fenerler. Sonda sis açılıyor, güneş doğuyor, ışıklar göğe yükseliyor.",
+   "youtube": "HfdqtQitfTc",
+   "short": "HLbfqVoyjWg",
+   "sure": "3:43",
+   "sure_sn": 223,
+   "yayin": "2026-10-23T11:35:10-07:00",
+   "yayin_tr": "23 Ekim 2026",
+   "dinle": [
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/sesini-duyan-var-inn-karb"
+    }
+   ],
+   "notlar": []
+  },
   {
    "slug": "guzel-ornek",
    "ad": "Güzel Örnek",

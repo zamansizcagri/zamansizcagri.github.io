@@ -297,7 +297,7 @@ def sayfa():
       <div class="hakkinda__metin">
         <h2 id="hakkinda-baslik">Hakkında</h2>
         <p class="hakkinda__giris">Zamansız Çağrı, Kur’an’ın ve imanın hakikatlerini akılda kalan şarkılara dönüştüren bir müzik kanalı. Adını Dosdoğru’nun kapanışındaki “Çağrı zamansız” dizesinden alır.</p>
-        <p>Şarkılar bireyin iç dünyasından toplumun derdine uzanır: istikamet, ümit ve tevbe, kalp kırmamak, kardeşlik, anne-baba hakkı, paylaşmak, şükür ve iktisat, tevekkül ve helal kazanç, beş vakit namaz. Her klibin kendi sesi ve kendi görsel dünyası vardır; yukarıdaki renkler de kliplerin renkleridir.</p>
+        <p>Şarkılar bireyin iç dünyasından toplumun derdine uzanır: istikamet, ümit ve tevbe, kalp kırmamak, kardeşlik, anne-baba hakkı, paylaşmak, şükür ve iktisat, tevekkül ve helal kazanç, beş vakit namaz, yuvada sevgi ve merhamet. Her klibin kendi sesi ve kendi görsel dünyası vardır; yukarıdaki renkler de kliplerin renkleridir.</p>
         <p class="hakkinda__beyan">Şarkılar yapay zekâ destekli müzik araçlarıyla üretilir. Her klibin sözleri ve dayandığı âyet, YouTube açıklamasında yer alır.</p>
       </div>
       <div class="hakkinda__yol">

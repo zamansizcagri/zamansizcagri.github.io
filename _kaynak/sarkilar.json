@@ -3,7 +3,7 @@
   "alan_adi": "https://zamansizcagri.com",
   "ad": "Zamansız Çağrı",
   "slogan": "Kur’an ve iman hakikatleri, akılda kalan şarkılarla.",
-  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Gözümün Nuru, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
+  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Gözümün Nuru, Huzur Bulasın Diye, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
   "platformlar": [
    {
     "ad": "YouTube",
@@ -39,6 +39,42 @@
   "abone_url": "https://www.youtube.com/@ZamansizCagri?sub_confirmation=1"
  },
  "sarkilar": [
+  {
+   "slug": "huzur-bulasin-diye",
+   "ad": "Huzur Bulasın Diye",
+   "alt": "Sevgi ve Merhamet",
+   "kanca": "Bir çatı, iki gönül; bir sofra, bir dua.",
+   "renk": "#E57C86",
+   "capa": {
+    "dil": "ar",
+    "metin": "وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً",
+    "kaynak": "Rûm 21",
+    "kontrol": {
+     "uzunluk": 40,
+     "toplam": 59485,
+     "fnv1a": 427036610
+    }
+   },
+   "meal": {
+    "metin": "Kendileri ile huzur bulasınız diye sizin için türünüzden eşler yaratması ve aranızda bir sevgi ve merhamet var etmesi de onun (varlığının ve kudretinin) delillerindendir. Şüphesiz bunda düşünen bir toplum için elbette ibretler vardır.",
+    "kaynak": "Rûm Sûresi, 30/21 (Diyanet meali)"
+   },
+   "aciklama": "Yeni bir ev, boş duvarlar, köşede koliler… Bu şarkı yuvanın şarkısı: süsüne değil özüne bakmak, düğünü hafif tutmak, sevgiyi her gün yeniden işlemek, evde işi paylaşmak — Resûlullah evinde ailesine yardım ederdi, Hz. Hatice ona yemek getirdi. Köprü, İşârâtü’l-İ’câz’daki saadet bahsinden uyarlandı: insanın en büyük ihtiyacı, kalbine cevap veren bir kalp; sevinçte ortak, gamda kederde yardımcı.",
+   "ses": "Kazakistan’ın iki telli dombrası, kobız ve sıbızgıyla sıcak Türkçe nakarat ve ölçülü rap kıtalar. Klipte tuğla tuğla bir ev örülür; sofra kurulur, bayraklar asılır, pencerelerde ve yıldızlarda kalpler ritimle atar, sonunda mahallenin bütün pencereleri yanar.",
+   "youtube": "IERR7jxjj48",
+   "short": "24cRFM3TvVw",
+   "sure": "4:05",
+   "sure_sn": 245,
+   "yayin": "2026-10-22T23:05:13-07:00",
+   "yayin_tr": "23 Ekim 2026",
+   "dinle": [
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/huzur-bulasn-diye-sevgi-ve-merhamet"
+    }
+   ],
+   "notlar": []
+  },
   {
    "slug": "gozumun-nuru",
    "ad": "Gözümün Nuru",

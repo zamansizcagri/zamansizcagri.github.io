@@ -3,7 +3,7 @@
   "alan_adi": "https://zamansizcagri.com",
   "ad": "Zamansız Çağrı",
   "slogan": "Kur’an ve iman hakikatleri, akılda kalan şarkılarla.",
-  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Sesini Duyan Var, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
+  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Sesini Duyan Var, Kuyudan Saraya, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
   "platformlar": [
    {
     "ad": "YouTube",
@@ -39,6 +39,42 @@
   "abone_url": "https://www.youtube.com/@ZamansizCagri?sub_confirmation=1"
  },
  "sarkilar": [
+  {
+   "slug": "kuyudan-saraya",
+   "ad": "Kuyudan Saraya",
+   "alt": "Güzel Sabır",
+   "kanca": "Kuyudan saraya, sabırla, sabırla! Sabır susmak değil, beklerken büyümek.",
+   "renk": "#F4A06A",
+   "capa": {
+    "dil": "ar",
+    "metin": "مَن يَتَّقِ وَيَصْبِرْ",
+    "kaynak": "Yûsuf 90",
+    "kontrol": {
+     "uzunluk": 22,
+     "toplam": 32188,
+     "fnv1a": 677867885
+    }
+   },
+   "meal": {
+    "metin": "Kardeşleri, “Yoksa sen, sen Yûsuf musun?” dediler. O da, “Ben Yûsuf’um, bu da kardeşim. Allah bize iyilikte bulundu. Çünkü, kim kötülükten sakınır ve sabrederse şüphesiz Allah iyilik yapanların mükafatını zayi etmez” dedi.",
+    "kaynak": "Yûsuf Sûresi, 12/90 (Diyanet meali)"
+   },
+   "aciklama": "Kuyuda ümit, zindanda ilim, sarayda af: Hz. Yûsuf’un kuyudan saraya uzanan yolu, sabrın kenarda bekleyiş değil, beklerken büyümek olduğunu anlatır. Bu şarkı bekleyişi okula çevirmeye çağırıyor: oku, öğren, birine el uzat. Nakarattaki “güzel sabır” (sabrun cemîl) Kur’an’da Hz. Yakub’un sözüdür (Yûsuf 12:18, 12:83).",
+   "ses": "Endülüs’ün flamenko gitarı (soleá), cajón, hafif palmas ve kontrbasla sıcak bir düzenleme. Şarkıda tilavet yok; âyet klibin açılışında. Klipte kuyunun dibinden yıldızlı gök, gece çölünde kervan, medreseye dönen zindan, başak tarlası, açılan kapı ve sofra; sonda fenerli terasta on bir yıldız, güneş ve ay.",
+   "youtube": "0OCXmjPQbeQ",
+   "short": "UwxwCTf72DE",
+   "sure": "4:10",
+   "sure_sn": 250,
+   "yayin": "2026-10-24T01:09:18-07:00",
+   "yayin_tr": "24 Ekim 2026",
+   "dinle": [
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/kuyudan-saraya-gzel-sabr"
+    }
+   ],
+   "notlar": []
+  },
   {
    "slug": "sesini-duyan-var",
    "ad": "Sesini Duyan Var",

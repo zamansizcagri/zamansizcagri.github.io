@@ -177,11 +177,13 @@ a { color: inherit; }
 }
 
 /* ---------- Amblem ---------- */
-.amblem { width: 34px; height: 34px; flex: none; overflow: visible; }
+.amblem { width: 40px; height: 40px; flex: none; overflow: visible; }
+.amblem .halka { fill: none; stroke: var(--vizon); }
 .amblem .dalga { fill: none; stroke: var(--krem); stroke-linecap: round; }
-.amblem .vizon-dolgu { fill: var(--vizon); }
-.amblem .vizon-cizgi { fill: none; stroke: var(--vizon); stroke-linecap: round; stroke-linejoin: round; }
-.amblem .kitap-ic { fill: var(--doku); }
+.amblem .nokta { fill: var(--vizon-acik); }
+.amblem .kitap { fill: var(--vizon-acik); stroke: var(--vizon-acik); stroke-linejoin: round; }
+.amblem .sirt { fill: none; stroke: var(--espresso); stroke-linecap: round; }
+.alt .amblem .sirt { stroke: var(--espresso-derin); }
 
 /* ---------- Üst bant ---------- */
 .ust {
@@ -786,7 +788,7 @@ a { color: inherit; }
   .ust nav { display: none; }
   .ust .dugme--kucuk { margin-left: auto; }
   .marka__ad { font-size: 1.0625rem; letter-spacing: 0.12em; }
-  .amblem { width: 30px; height: 30px; }
+  .amblem { width: 34px; height: 34px; }
 
   .giris { padding-block: 32px 48px; }
   .giris__alt { font-size: 1.0625rem; margin-top: 20px; }

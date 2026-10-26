@@ -51,15 +51,14 @@ def sure_iso(sn):
     return f"PT{sn // 60}M{sn % 60}S"
 
 
-AMBLEM = """<svg class="amblem" viewBox="22 30 156 140" aria-hidden="true" focusable="false">
-  <path class="dalga dalga--1" d="M 70.6 101 A 34 34 0 0 1 129.4 101" stroke-width="8"/>
-  <path class="dalga dalga--2" d="M 51.5 90 A 56 56 0 0 1 148.5 90" stroke-width="8"/>
-  <path class="dalga dalga--3" d="M 32.5 79 A 78 78 0 0 1 167.5 79" stroke-width="7"/>
-  <circle class="vizon-dolgu" cx="100" cy="118" r="9"/>
-  <path class="kitap-ic" d="M 58 132 C 72 136, 88 141, 100 146 C 112 141, 128 136, 142 132 L 142 152 C 128 158, 112 162, 100 162 C 88 162, 72 158, 58 152 Z"/>
-  <path class="vizon-cizgi" d="M 58 132 C 72 136, 88 141, 100 146 C 112 141, 128 136, 142 132" stroke-width="7"/>
-  <path class="vizon-cizgi" d="M 58 132 L 58 152 C 72 158, 88 162, 100 162 C 112 162, 128 158, 142 152 L 142 132" stroke-width="7"/>
-  <path class="vizon-cizgi" d="M 100 146 L 100 162" stroke-width="5"/>
+AMBLEM = """<svg class="amblem" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+  <circle class="halka" cx="100" cy="100" r="95" stroke-width="10"/>
+  <path class="dalga dalga--1" d="M 70.6 100 A 34 34 0 0 1 129.4 100" stroke-width="12"/>
+  <path class="dalga dalga--2" d="M 51.5 89 A 56 56 0 0 1 148.5 89" stroke-width="12"/>
+  <path class="dalga dalga--3" d="M 32.5 78 A 78 78 0 0 1 167.5 78" stroke-width="12"/>
+  <circle class="nokta" cx="100" cy="117" r="11"/>
+  <path class="kitap" d="M 58 131 C 72 135 88 140 100 145 C 112 140 128 135 142 131 L 142 151 C 128 157 112 161 100 161 C 88 161 72 157 58 151 Z" stroke-width="5"/>
+  <path class="sirt" d="M 100 146.5 L 100 157.5" stroke-width="4"/>
 </svg>"""
 
 OK_DIS = ('<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg>'
@@ -145,8 +144,8 @@ def json_ld():
             "url": f"{alan}/",
             "description": SITE["slogan"],
             "genre": ["Hip Hop/Rap", "World"],
-            "image": f"{alan}/assets/img/og-zamansiz-cagri.jpg",
-            "logo": f"{alan}/assets/img/icon-512.png",
+            "image": f"{alan}/assets/img/og-zamansiz-cagri.jpg?v=2",
+            "logo": f"{alan}/assets/img/icon-512.png?v=2",
             "sameAs": [p["url"] for p in SITE["platformlar"]],
         },
         {
@@ -207,15 +206,15 @@ def sayfa():
 <meta property="og:title" content="{e(SITE["ad"])}">
 <meta property="og:description" content="{e(SITE["slogan"])}">
 <meta property="og:url" content="{alan}/">
-<meta property="og:image" content="{alan}/assets/img/og-zamansiz-cagri.jpg">
+<meta property="og:image" content="{alan}/assets/img/og-zamansiz-cagri.jpg?v=2">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Zamansız Çağrı amblemi ve sloganı">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.ico" sizes="32x32">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">
+<link rel="icon" href="/favicon.ico?v=2" sizes="32x32">
+<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
+<link rel="manifest" href="/site.webmanifest?v=2">
 <link rel="preload" href="/assets/fonts/cormorant-garamond-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preconnect" href="https://i.ytimg.com">

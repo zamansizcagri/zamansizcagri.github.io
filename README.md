@@ -17,6 +17,8 @@ Zamansız Çağrı'nın web sitesi. GitHub Pages'te `main` dalının kökünden 
 
 Klip kapakları YouTube'dan (`i.ytimg.com`) gelir; video, kapağa tıklanınca `youtube-nocookie.com` üzerinden yüklenir.
 
+Ziyaret istatistikleri Google Analytics 4 ile tutulur (Ölçüm Kimliği `G-762Y2RGWQN`). Etiket `build.py`'deki `GA_KIMLIK` ile `index.html`'e, elle de `404.html`'e eklenmiştir.
+
 ## Yeni klip eklemek
 
 1. `_kaynak/sarkilar.json` içindeki `sarkilar` listesinin **başına** yeni bir kayıt ekleyin (diğer kayıtlarla aynı alanlar: `slug`, `ad`, `alt`, `kanca`, `renk`, `capa`, `meal`, `aciklama`, `ses`, `youtube`, `short`, `sure`, `sure_sn`, `yayin`, `yayin_tr`, `dinle`, `notlar`).

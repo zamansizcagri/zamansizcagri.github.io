@@ -22,6 +22,10 @@ VERI = json.loads((KOK / "_kaynak" / "sarkilar.json").read_text(encoding="utf-8"
 SITE = VERI["site"]
 SARKILAR = VERI["sarkilar"]
 
+# Google Analytics 4 — hesap "Zamansız Çağrı" (ytzamansizcagri@gmail.com), mülk zamansizcagri.com,
+# web veri akışı "Zamansız Çağrı web sitesi". Aynı etiket 404.html'de de var.
+GA_KIMLIK = "G-762Y2RGWQN"
+
 
 def e(metin):
     return html.escape(metin or "", quote=True)
@@ -196,6 +200,15 @@ def sayfa():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_KIMLIK}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+
+  gtag('config', '{GA_KIMLIK}');
+</script>
 <title>{e(SITE["ad"])} – {e(SITE["slogan"].rstrip("."))}</title>
 <meta name="description" content="{e(SITE["aciklama"])}">
 <link rel="canonical" href="{alan}/">

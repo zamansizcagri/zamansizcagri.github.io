@@ -2,8 +2,8 @@
  "site": {
   "alan_adi": "https://zamansizcagri.com",
   "ad": "Zamansız Çağrı",
-  "slogan": "Kur’an ve iman hakikatleri, akılda kalan şarkılarla.",
-  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Ümidini Kesme, Sesini Duyan Var, Kuyudan Saraya, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
+  "slogan": "Ses bu çağın, çağrı zamansız: âyetlerden ilham alan şarkılar.",
+  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Her Şeyde İnce San’at, Ümidini Kesme, Sesini Duyan Var, Kuyudan Saraya, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
   "platformlar": [
    {
     "ad": "YouTube",
@@ -39,6 +39,41 @@
   "abone_url": "https://www.youtube.com/@ZamansizCagri?sub_confirmation=1"
  },
  "sarkilar": [
+  {
+   "slug": "her-seyde-ince-sanat",
+   "ad": "Her Şeyde İnce San’at",
+   "alt": "",
+   "kanca": "Her şeyde ince san’at, her zerre bir hakîkat. Bak, bak! Ne sırlı hilkat!",
+   "renk": "#9ED36A",
+   "capa": {
+    "dil": "ar",
+    "metin": "صُنْعَ ٱللَّهِ ٱلَّذِىٓ أَتْقَنَ كُلَّ شَىْءٍ",
+    "kaynak": "Neml 88",
+    "kontrol": {
+     "uzunluk": 45,
+     "toplam": 64499,
+     "fnv1a": 2435359964
+    }
+   },
+   "meal": {
+    "metin": "Sen dağları görürsün de, onları yerinde durur sanırsın. Oysa onlar bulutların yürümesi gibi yürümektedirler. (Bu,) her şeyi sapasağlam yapan Allah’ın sanatıdır. Şüphesiz ki O, yaptıklarınızdan tamamıyla haberdardır.",
+    "kaynak": "Neml Sûresi, 27/88 (Türkiye Diyanet Vakfı meali)"
+   },
+   "aciklama": "Bir goncada, bir petekte, bir parmak izinde, dönüp duran yıldızlarda… Kâinat bir tablo; biz de o tablonun içinde, işini sevgiyle ve özenle yapmaya çağrılan birer eseriz. Nakarattaki “ince san’at” Neml 27:88’deki “her şeyi sapasağlam yapan Allah’ın sanatı”na, ön nakarat Mülk 67:3-4’e dayanır; ikinci ön nakarat Risale-i Nur’un Lemeât’ındaki “tabiat bir ressam değil, bir sanattır” fikrini işler.",
+   "ses": "Yalnız İran santuru eşliğinde, ince ve berrak bir tenor sesiyle. Şarkıda tilavet yok. Klipte her söz satırına ayrı, gerçek doğa çekimi: sis üstünde doğan güneş, çiğli örümcek ağı, açan gonca, tavus kuşu, parmak izi, altıgen petekler, DNA sarmalı ve gün batımında sığırcık sürüsü (görüntüler: Pexels).",
+   "youtube": "QoGaRIficts",
+   "sure": "4:26",
+   "sure_sn": 266,
+   "yayin": "2026-11-17T11:04:00-08:00",
+   "yayin_tr": "17 Kasım 2026",
+   "dinle": [
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/her-eyde-ince-sanat"
+    }
+   ],
+   "notlar": []
+  },
   {
    "slug": "kuyudan-saraya",
    "ad": "Kuyudan Saraya",

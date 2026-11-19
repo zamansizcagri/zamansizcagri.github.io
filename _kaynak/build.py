@@ -148,7 +148,7 @@ def json_ld():
             "url": f"{alan}/",
             "description": SITE["slogan"],
             "genre": ["Hip Hop/Rap", "World"],
-            "image": f"{alan}/assets/img/og-zamansiz-cagri.jpg?v=2",
+            "image": f"{alan}/assets/img/og-zamansiz-cagri.jpg?v=3",
             "logo": f"{alan}/assets/img/icon-512.png?v=2",
             "sameAs": [p["url"] for p in SITE["platformlar"]],
         },
@@ -219,7 +219,7 @@ def sayfa():
 <meta property="og:title" content="{e(SITE["ad"])}">
 <meta property="og:description" content="{e(SITE["slogan"])}">
 <meta property="og:url" content="{alan}/">
-<meta property="og:image" content="{alan}/assets/img/og-zamansiz-cagri.jpg?v=2">
+<meta property="og:image" content="{alan}/assets/img/og-zamansiz-cagri.jpg?v=3">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Zamansız Çağrı amblemi ve sloganı">
@@ -227,7 +227,7 @@ def sayfa():
 <link rel="icon" href="/favicon.ico?v=2" sizes="32x32">
 <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
-<link rel="manifest" href="/site.webmanifest?v=2">
+<link rel="manifest" href="/site.webmanifest?v=3">
 <link rel="preload" href="/assets/fonts/cormorant-garamond-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preconnect" href="https://i.ytimg.com">
@@ -308,7 +308,7 @@ def sayfa():
     <div class="kap hakkinda">
       <div class="hakkinda__metin">
         <h2 id="hakkinda-baslik">Hakkında</h2>
-        <p class="hakkinda__giris">Zamansız Çağrı, Kur’an’ın ve imanın hakikatlerini akılda kalan şarkılara dönüştüren bir müzik kanalı. Adını Dosdoğru’nun kapanışındaki “Çağrı zamansız” dizesinden alır.</p>
+        <p class="hakkinda__giris">Zamansız Çağrı, âyetlerden ve Risale-i Nur’dan ilham alan şarkılar yapan bir müzik kanalı. Ses bu çağın; çağrı zamansız. Adını Dosdoğru’nun kapanışındaki “Çağrı zamansız” dizesinden alır.</p>
         <p>Şarkılar bireyin iç dünyasından toplumun derdine uzanır: istikamet, ümit ve tevbe, kalp kırmamak, kardeşlik, anne-baba hakkı, paylaşmak, şükür ve iktisat, tevekkül ve helal kazanç, beş vakit namaz, yuvada sevgi ve merhamet, Peygamberimizin güzel örnekliği, dua ve O’nun yakınlığı, sabır ve beklerken büyümek. Her klibin kendi sesi ve kendi görsel dünyası vardır; yukarıdaki renkler de kliplerin renkleridir.</p>
         <p class="hakkinda__beyan">Şarkılar yapay zekâ destekli müzik araçlarıyla üretilir. Her klibin sözleri ve dayandığı âyet, YouTube açıklamasında yer alır.</p>
       </div>

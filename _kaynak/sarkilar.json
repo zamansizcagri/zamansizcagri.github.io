@@ -3,7 +3,7 @@
   "alan_adi": "https://zamansizcagri.com",
   "ad": "Zamansız Çağrı",
   "slogan": "Ses bu çağın, çağrı zamansız: âyetlerden ilham alan şarkılar.",
-  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Her Şeyde İnce San’at, Ümidini Kesme, Sesini Duyan Var, Kuyudan Saraya, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
+  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Açık Kitap, Her Şeyde İnce San’at, Ümidini Kesme, Sesini Duyan Var, Kuyudan Saraya, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
   "platformlar": [
    {
     "ad": "YouTube",
@@ -39,6 +39,36 @@
   "abone_url": "https://www.youtube.com/@ZamansizCagri?sub_confirmation=1"
  },
  "sarkilar": [
+  {
+   "slug": "acik-kitap",
+   "ad": "Açık Kitap",
+   "alt": "Kâinatı Oku",
+   "kanca": "Gök kapağı, yer sayfa; çiçekleri kelime, yıldızları bir dua. Oku, Yazan’ı tanı.",
+   "renk": "#8FC3EA",
+   "capa": {
+    "dil": "tr",
+    "metin": "Göklerin ve yerin yaratılışında… aklıselim sahipleri için gerçekten açık ibretler vardır.",
+    "kaynak": "Âl-i İmrân 190"
+   },
+   "meal": {
+    "metin": "Göklerin ve yerin yaratılışında, gece ile gündüzün birbiri ardınca gelip gidişinde aklıselim sahipleri için gerçekten açık ibretler vardır.",
+    "kaynak": "Âl-i İmrân Sûresi, 3/190 (Türkiye Diyanet Vakfı meali)"
+   },
+   "aciklama": "Kâinat, okunmak için açılmış bir kitap: gökte, bahçede, bir çekirdekte ve kendi kalbimizde yazılı satırlar. Ön nakarat, Hz. Peygamber’in bir gece kalkıp göğe bakarak Âl-i İmrân 190-191’i okumasını anlatır; rap’ler Risale-i Nur’un “bir meyve bir harf, bir çekirdek bir nokta” benzetmesini ve mânâ-yı harfî bakışını işler. Köprüde Sa’dî-i Şîrâzî’ye atfedilen Farsça beyit: uyanık gözle bakana her yaprak, Yaratan’ı tanıtan bir defterdir.",
+   "ses": "İran santuru ve Mahur havasıyla, ölçülü bir Türkçe rap ve nestalik levhada Farsça bir beyit. Şarkıda tilavet yok. Klipte hattatın kalemi, gece göğü, Samanyolu, açan çiçekler, filizlenen tohum, Kur’an sayfaları, mikroskop ve rasathane (görüntüler: Pexels).",
+   "youtube": "UfQ3ssGer4k",
+   "sure": "3:55",
+   "sure_sn": 235,
+   "yayin": "2026-11-20T14:20:00+03:00",
+   "yayin_tr": "20 Kasım 2026",
+   "dinle": [
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/ak-kitap-kinat-oku"
+    }
+   ],
+   "notlar": []
+  },
   {
    "slug": "her-seyde-ince-sanat",
    "ad": "Her Şeyde İnce San’at",

@@ -3,7 +3,7 @@
   "alan_adi": "https://zamansizcagri.com",
   "ad": "Zamansız Çağrı",
   "slogan": "Ses bu çağın, çağrı zamansız: âyetlerden ilham alan şarkılar.",
-  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Üzüm Üzüme, Azıcık Aşım, Açık Kitap, Her Şeyde İnce San’at, Ümidini Kesme, Sesini Duyan Var, Kuyudan Saraya, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
+  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Tanışalım Diye, Üzüm Üzüme, Azıcık Aşım, Açık Kitap, Her Şeyde İnce San’at, Ümidini Kesme, Sesini Duyan Var, Kuyudan Saraya, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
   "platformlar": [
    {
     "ad": "YouTube",
@@ -39,6 +39,36 @@
   "abone_url": "https://www.youtube.com/@ZamansizCagri?sub_confirmation=1"
  },
  "sarkilar": [
+  {
+   "slug": "tanisalim-diye",
+   "ad": "Tanışalım Diye",
+   "alt": "Bir Bahçenin Çiçekleri",
+   "kanca": "Renk renk yarattı bizi, dil dil, ses ses! Tanışalım diye, bilişelim diye.",
+   "renk": "#D98BE0",
+   "capa": {
+    "dil": "tr",
+    "metin": "Demek kabâil ve tavâife inkısam, şu âyetin ilân ettiği gibi, teârüf içindir, teâvün içindir; tenâkür için değil, tahâsum için değildir!‥",
+    "kaynak": "Said Nursî, Mektûbât, Yirmi Altıncı Mektup"
+   },
+   "meal": {
+    "metin": "Göklerin ve yerin yaratılması, dillerinizin ve renklerinizin farklı olması da onun (varlığının ve kudretinin) delillerindendir. Şüphesiz bunda bilenler için elbette ibretler vardır.",
+    "kaynak": "Rûm Sûresi, 30/22 (Diyanet meali)"
+   },
+   "aciklama": "Dillerimizin ve renklerimizin farkını bir işaret, bir tanışma vesilesi olarak okuyan bir şarkı. Vapurda simidini bölen bir çocuk; Habeş’ten, Fars’tan, Rum diyarından gelip bir sofrada kardeş olan Bilal, Selman ve Suheyb; kuzeyden kar, güneyden güneş getirenler… Yüzün rengi bir süs, asıl güzellik gönülde; üstünlük iyilikte ve takvada.",
+   "ses": "Gürcü panduri, chonguri ve salamurinin sıcak tınısı, sözsüz bir erkek korosu ve ölçülü bir Türkçe rap. Klipte renk renk lale tarlaları, açan çiçekler, İstanbul vapurları, Kapadokya balonları ve ayçiçekleri; geçişlerde açılan çiçekler ve kilim desenleri (görüntüler: Pexels).",
+   "youtube": "R1ojNLS8-vc",
+   "sure": "3:26",
+   "sure_sn": 206,
+   "yayin": "2026-11-26T19:30:00+03:00",
+   "yayin_tr": "26 Kasım 2026",
+   "dinle": [
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/tanalm-diye-bir-bahenin-iekleri"
+    }
+   ],
+   "notlar": []
+  },
   {
    "slug": "uzum-uzume",
    "ad": "Üzüm Üzüme",

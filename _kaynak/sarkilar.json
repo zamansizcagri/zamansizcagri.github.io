@@ -3,7 +3,7 @@
   "alan_adi": "https://zamansizcagri.com",
   "ad": "Zamansız Çağrı",
   "slogan": "Ses bu çağın, çağrı zamansız: âyetlerden ilham alan şarkılar.",
-  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Azıcık Aşım, Açık Kitap, Her Şeyde İnce San’at, Ümidini Kesme, Sesini Duyan Var, Kuyudan Saraya, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
+  "aciklama": "Zamansız Çağrı: Kur’an âyetlerine yaslanan, bugünün derdine dokunan Türkçe sözlü klipler. Dosdoğru, Üzüm Üzüme, Azıcık Aşım, Açık Kitap, Her Şeyde İnce San’at, Ümidini Kesme, Sesini Duyan Var, Kuyudan Saraya, Gözümün Nuru, Huzur Bulasın Diye, Güzel Örnek, Kardeş Ol, Ummadığın Yerden, Bir Damlada Rahmet, Öf Bile Deme, Paylaş Çoğalsın ve diğerleri.",
   "platformlar": [
    {
     "ad": "YouTube",
@@ -39,6 +39,36 @@
   "abone_url": "https://www.youtube.com/@ZamansizCagri?sub_confirmation=1"
  },
  "sarkilar": [
+  {
+   "slug": "uzum-uzume",
+   "ad": "Üzüm Üzüme",
+   "alt": "",
+   "kanca": "Üzüm üzüme baka baka tatlanır! Gönül gönüle baka baka aydınlanır.",
+   "renk": "#BFC86A",
+   "capa": {
+    "dil": "tr",
+    "metin": "Evet, üç elif ittihâd etmezse, üç kıymeti var. Sırr‑ı adediyet ile ittihâd etse, yüz on bir kıymet alır.",
+    "kaynak": "Said Nursî, Lem’alar, 21. Lem’a"
+   },
+   "meal": {
+    "metin": "Ey iman edenler! Allah’a karşı gelmekten sakının ve doğrularla beraber olun.",
+    "kaynak": "Tevbe Sûresi, 9/119 (Diyanet meali)"
+   },
+   "aciklama": "“Üzüm üzüme baka baka kararır” atasözünün güzel tarafından bir okuma: bağda kararmak olgunlaşmak, tatlanmaktır. Kiminle oturursan rengini ondan alırsın; misk taşıyanın yanında kokusu sana siner, doğru bir dostla yürüyen yükün yarısını taşır. Dostun aynan olur, lekeni yalnız sana gösterir. Köprüde mağaradaki yoldaş Sıddîk ve yan yana gelince yüz on bir olan üç elif anılır.",
+   "ses": "Afgan rubabının sıcak tınısı, tabla, ölçülü bir Türkçe rap ve “Baka baka!” diye cevap veren bir koro. Klipte seher vakti bir bağ, yan yana olgunlaşan salkımlar, camiye birlikte yürüyen ve birlikte Kur’an okuyan dostlar, yıldızlı bir çöl gecesi ve altın üç elif (görüntüler: Pexels).",
+   "youtube": "JUZrJCy6SbE",
+   "sure": "3:24",
+   "sure_sn": 204,
+   "yayin": "2026-11-26T08:09:38+03:00",
+   "yayin_tr": "26 Kasım 2026",
+   "dinle": [
+    {
+     "etiket": "Dinleme platformları",
+     "url": "https://distrokid.com/hyperfollow/zamanszar/zm-zme"
+    }
+   ],
+   "notlar": []
+  },
   {
    "slug": "azicik-asim",
    "ad": "Azıcık Aşım",
